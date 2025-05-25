@@ -1,0 +1,25 @@
+2025-05-09 15:43:15 | INFO     | __main__:main:13 - Starting LinkedIn Data Extractor
+2025-05-09 15:43:15 | INFO     | src.config:load_config:14 - Loading environment variables
+2025-05-09 15:43:15 | DEBUG    | src.api.texau_client:__init__:31 - TexAU client initialized with complete authentication
+2025-05-09 15:43:15 | DEBUG    | src.api.linkedin_api:__init__:11 - LinkedIn API client initialized
+2025-05-09 15:43:15 | DEBUG    | src.ui.app:__init__:16 - Initializing LinkedIn Extractor App
+2025-05-09 18:33:11 | INFO     | __main__:main:13 - Starting LinkedIn Data Extractor
+2025-05-09 18:33:11 | INFO     | src.config:load_config:14 - Loading environment variables
+2025-05-09 18:33:11 | DEBUG    | src.api.texau_client:__init__:31 - TexAU client initialized with complete authentication
+2025-05-09 18:33:11 | DEBUG    | src.api.linkedin_api:__init__:11 - LinkedIn API client initialized
+2025-05-09 18:33:11 | DEBUG    | src.ui.app:__init__:16 - Initializing LinkedIn Extractor App
+2025-05-09 18:33:18 | INFO     | __main__:main:13 - Starting LinkedIn Data Extractor
+2025-05-09 18:33:18 | INFO     | src.config:load_config:14 - Loading environment variables
+2025-05-09 18:33:18 | DEBUG    | src.api.texau_client:__init__:31 - TexAU client initialized with complete authentication
+2025-05-09 18:33:18 | DEBUG    | src.api.linkedin_api:__init__:11 - LinkedIn API client initialized
+2025-05-09 18:33:18 | DEBUG    | src.ui.app:__init__:16 - Initializing LinkedIn Extractor App
+2025-05-09 18:33:20 | INFO     | __main__:main:13 - Starting LinkedIn Data Extractor
+2025-05-09 18:33:20 | INFO     | src.config:load_config:14 - Loading environment variables
+2025-05-09 18:33:20 | DEBUG    | src.api.texau_client:__init__:31 - TexAU client initialized with complete authentication
+2025-05-09 18:33:20 | DEBUG    | src.api.linkedin_api:__init__:11 - LinkedIn API client initialized
+2025-05-09 18:33:20 | DEBUG    | src.ui.app:__init__:16 - Initializing LinkedIn Extractor App
+2025-05-09 18:33:22 | INFO     | __main__:main:13 - Starting LinkedIn Data Extractor
+2025-05-09 18:33:22 | INFO     | src.config:load_config:14 - Loading environment variables
+2025-05-09 18:33:22 | DEBUG    | src.api.texau_client:__init__:31 - TexAU client initialized with complete authentication
+2025-05-09 18:33:22 | DEBUG    | src.api.linkedin_api:__init__:11 - LinkedIn API client initialized
+2025-05-09 18:33:22 | DEBUG    | src.ui.app:__init__:16 - Initializing LinkedIn Extractor App

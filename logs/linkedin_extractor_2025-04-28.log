@@ -1,0 +1,251 @@
+2025-04-28 17:13:35 | INFO     | __main__:main:13 - Starting LinkedIn Data Extractor
+2025-04-28 17:13:35 | INFO     | src.config:load_config:14 - Loading environment variables
+2025-04-28 17:13:35 | DEBUG    | src.api.texau_client:__init__:30 - TexAU client initialized with complete authentication
+2025-04-28 17:13:35 | DEBUG    | src.api.linkedin_api:__init__:11 - LinkedIn API client initialized
+2025-04-28 17:13:35 | DEBUG    | src.ui.app:__init__:15 - Initializing LinkedIn Extractor App
+2025-04-28 17:14:09 | INFO     | __main__:main:13 - Starting LinkedIn Data Extractor
+2025-04-28 17:14:09 | INFO     | src.config:load_config:14 - Loading environment variables
+2025-04-28 17:14:09 | DEBUG    | src.api.texau_client:__init__:30 - TexAU client initialized with complete authentication
+2025-04-28 17:14:09 | DEBUG    | src.api.linkedin_api:__init__:11 - LinkedIn API client initialized
+2025-04-28 17:14:09 | DEBUG    | src.ui.app:__init__:15 - Initializing LinkedIn Extractor App
+2025-04-28 17:14:24 | INFO     | __main__:main:13 - Starting LinkedIn Data Extractor
+2025-04-28 17:14:24 | INFO     | src.config:load_config:14 - Loading environment variables
+2025-04-28 17:14:24 | DEBUG    | src.api.texau_client:__init__:30 - TexAU client initialized with complete authentication
+2025-04-28 17:14:24 | DEBUG    | src.api.linkedin_api:__init__:11 - LinkedIn API client initialized
+2025-04-28 17:14:24 | DEBUG    | src.ui.app:__init__:15 - Initializing LinkedIn Extractor App
+2025-04-28 17:15:20 | INFO     | __main__:main:13 - Starting LinkedIn Data Extractor
+2025-04-28 17:15:20 | INFO     | src.config:load_config:14 - Loading environment variables
+2025-04-28 17:15:20 | DEBUG    | src.api.texau_client:__init__:30 - TexAU client initialized with complete authentication
+2025-04-28 17:15:20 | DEBUG    | src.api.linkedin_api:__init__:11 - LinkedIn API client initialized
+2025-04-28 17:15:20 | DEBUG    | src.ui.app:__init__:15 - Initializing LinkedIn Extractor App
+2025-04-28 17:15:20 | INFO     | __main__:main:13 - Starting LinkedIn Data Extractor
+2025-04-28 17:15:20 | INFO     | src.config:load_config:14 - Loading environment variables
+2025-04-28 17:15:20 | DEBUG    | src.api.texau_client:__init__:30 - TexAU client initialized with complete authentication
+2025-04-28 17:15:20 | DEBUG    | src.api.linkedin_api:__init__:11 - LinkedIn API client initialized
+2025-04-28 17:15:20 | DEBUG    | src.ui.app:__init__:15 - Initializing LinkedIn Extractor App
+2025-04-28 17:15:20 | INFO     | src.ui.app:post_extraction_page:153 - Extracting data for post: https://www.linkedin.com/feed/update/urn:li:activity:7322586144502616064?utm_source=share&utm_medium=member_desktop&rcm=ACoAADk5XawBTiCZkEWM7--nzXUWGSUUfxp_nxQ
+2025-04-28 17:15:20 | INFO     | src.api.linkedin_api:extract_post_data:47 - Extracting data from LinkedIn post: https://www.linkedin.com/feed/update/urn:li:activity:7322586144502616064?utm_source=share&utm_medium=member_desktop&rcm=ACoAADk5XawBTiCZkEWM7--nzXUWGSUUfxp_nxQ
+2025-04-28 17:15:20 | DEBUG    | src.api.texau_client:_make_request:46 - Making API request to endpoint: linkedin/post-data
+2025-04-28 17:15:21 | ERROR    | src.api.texau_client:_make_request:69 - API request failed: 404 Client Error: Not Found for url: https://api.texau.com/api/v1/linkedin/post-data
+2025-04-28 17:15:21 | ERROR    | src.api.linkedin_api:extract_post_data:59 - Failed to extract post data: 404 Client Error: Not Found for url: https://api.texau.com/api/v1/linkedin/post-data
+2025-04-28 17:15:21 | ERROR    | src.ui.app:post_extraction_page:186 - Error in post extraction: 404 Client Error: Not Found for url: https://api.texau.com/api/v1/linkedin/post-data
+2025-04-28 17:29:56 | INFO     | __main__:main:13 - Starting LinkedIn Data Extractor
+2025-04-28 17:29:56 | INFO     | src.config:load_config:14 - Loading environment variables
+2025-04-28 17:29:56 | DEBUG    | src.api.texau_client:__init__:30 - TexAU client initialized with complete authentication
+2025-04-28 17:29:56 | DEBUG    | src.api.linkedin_api:__init__:11 - LinkedIn API client initialized
+2025-04-28 17:29:56 | DEBUG    | src.ui.app:__init__:15 - Initializing LinkedIn Extractor App
+2025-04-28 17:29:56 | INFO     | src.ui.app:post_extraction_page:153 - Extracting data for post: https://www.linkedin.com/feed/update/urn:li:activity:7322586144502616064?utm_source=share&utm_medium=member_desktop&rcm=ACoAADk5XawBTiCZkEWM7--nzXUWGSUUfxp_nxQ
+2025-04-28 17:29:56 | INFO     | src.api.linkedin_api:extract_post_data:45 - Extracting data from LinkedIn post: https://www.linkedin.com/feed/update/urn:li:activity:7322586144502616064?utm_source=share&utm_medium=member_desktop&rcm=ACoAADk5XawBTiCZkEWM7--nzXUWGSUUfxp_nxQ
+2025-04-28 17:29:56 | DEBUG    | src.api.texau_client:_make_request:46 - Making API request to endpoint: automation/execute
+2025-04-28 17:29:56 | ERROR    | src.api.texau_client:_make_request:69 - API request failed: 404 Client Error: Not Found for url: https://api.texau.com/api/v1/automation/execute
+2025-04-28 17:29:56 | ERROR    | src.api.linkedin_api:extract_post_data:58 - Failed to extract post data: 404 Client Error: Not Found for url: https://api.texau.com/api/v1/automation/execute
+2025-04-28 17:29:56 | ERROR    | src.ui.app:post_extraction_page:186 - Error in post extraction: 404 Client Error: Not Found for url: https://api.texau.com/api/v1/automation/execute
+2025-04-28 17:30:01 | INFO     | __main__:main:13 - Starting LinkedIn Data Extractor
+2025-04-28 17:30:01 | INFO     | src.config:load_config:14 - Loading environment variables
+2025-04-28 17:30:01 | DEBUG    | src.api.texau_client:__init__:30 - TexAU client initialized with complete authentication
+2025-04-28 17:30:01 | DEBUG    | src.api.linkedin_api:__init__:11 - LinkedIn API client initialized
+2025-04-28 17:30:01 | DEBUG    | src.ui.app:__init__:15 - Initializing LinkedIn Extractor App
+2025-04-28 17:30:06 | INFO     | __main__:main:13 - Starting LinkedIn Data Extractor
+2025-04-28 17:30:06 | INFO     | src.config:load_config:14 - Loading environment variables
+2025-04-28 17:30:06 | DEBUG    | src.api.texau_client:__init__:30 - TexAU client initialized with complete authentication
+2025-04-28 17:30:06 | DEBUG    | src.api.linkedin_api:__init__:11 - LinkedIn API client initialized
+2025-04-28 17:30:06 | DEBUG    | src.ui.app:__init__:15 - Initializing LinkedIn Extractor App
+2025-04-28 17:30:19 | INFO     | __main__:main:13 - Starting LinkedIn Data Extractor
+2025-04-28 17:30:19 | INFO     | src.config:load_config:14 - Loading environment variables
+2025-04-28 17:30:19 | DEBUG    | src.api.texau_client:__init__:30 - TexAU client initialized with complete authentication
+2025-04-28 17:30:19 | DEBUG    | src.api.linkedin_api:__init__:11 - LinkedIn API client initialized
+2025-04-28 17:30:19 | DEBUG    | src.ui.app:__init__:15 - Initializing LinkedIn Extractor App
+2025-04-28 17:30:20 | INFO     | __main__:main:13 - Starting LinkedIn Data Extractor
+2025-04-28 17:30:20 | INFO     | src.config:load_config:14 - Loading environment variables
+2025-04-28 17:30:20 | DEBUG    | src.api.texau_client:__init__:30 - TexAU client initialized with complete authentication
+2025-04-28 17:30:20 | DEBUG    | src.api.linkedin_api:__init__:11 - LinkedIn API client initialized
+2025-04-28 17:30:20 | DEBUG    | src.ui.app:__init__:15 - Initializing LinkedIn Extractor App
+2025-04-28 17:30:20 | INFO     | src.ui.app:post_extraction_page:153 - Extracting data for post: https://www.linkedin.com/feed/update/urn:li:activity:7322586676587823104?utm_source=share&utm_medium=member_desktop&rcm=ACoAADk5XawBTiCZkEWM7--nzXUWGSUUfxp_nxQ
+2025-04-28 17:30:20 | INFO     | src.api.linkedin_api:extract_post_data:45 - Extracting data from LinkedIn post: https://www.linkedin.com/feed/update/urn:li:activity:7322586676587823104?utm_source=share&utm_medium=member_desktop&rcm=ACoAADk5XawBTiCZkEWM7--nzXUWGSUUfxp_nxQ
+2025-04-28 17:30:20 | DEBUG    | src.api.texau_client:_make_request:46 - Making API request to endpoint: automation/execute
+2025-04-28 17:30:20 | ERROR    | src.api.texau_client:_make_request:69 - API request failed: 404 Client Error: Not Found for url: https://api.texau.com/api/v1/automation/execute
+2025-04-28 17:30:20 | ERROR    | src.api.linkedin_api:extract_post_data:58 - Failed to extract post data: 404 Client Error: Not Found for url: https://api.texau.com/api/v1/automation/execute
+2025-04-28 17:30:20 | ERROR    | src.ui.app:post_extraction_page:186 - Error in post extraction: 404 Client Error: Not Found for url: https://api.texau.com/api/v1/automation/execute
+2025-04-28 17:30:47 | INFO     | __main__:main:13 - Starting LinkedIn Data Extractor
+2025-04-28 17:30:47 | INFO     | src.config:load_config:14 - Loading environment variables
+2025-04-28 17:30:47 | DEBUG    | src.api.texau_client:__init__:30 - TexAU client initialized with complete authentication
+2025-04-28 17:30:47 | DEBUG    | src.api.linkedin_api:__init__:11 - LinkedIn API client initialized
+2025-04-28 17:30:47 | DEBUG    | src.ui.app:__init__:15 - Initializing LinkedIn Extractor App
+2025-04-28 17:30:50 | INFO     | __main__:main:13 - Starting LinkedIn Data Extractor
+2025-04-28 17:30:50 | INFO     | src.config:load_config:14 - Loading environment variables
+2025-04-28 17:30:50 | DEBUG    | src.api.texau_client:__init__:30 - TexAU client initialized with complete authentication
+2025-04-28 17:30:50 | DEBUG    | src.api.linkedin_api:__init__:11 - LinkedIn API client initialized
+2025-04-28 17:30:50 | DEBUG    | src.ui.app:__init__:15 - Initializing LinkedIn Extractor App
+2025-04-28 17:30:52 | INFO     | __main__:main:13 - Starting LinkedIn Data Extractor
+2025-04-28 17:30:52 | INFO     | src.config:load_config:14 - Loading environment variables
+2025-04-28 17:30:52 | DEBUG    | src.api.texau_client:__init__:30 - TexAU client initialized with complete authentication
+2025-04-28 17:30:52 | DEBUG    | src.api.linkedin_api:__init__:11 - LinkedIn API client initialized
+2025-04-28 17:30:52 | DEBUG    | src.ui.app:__init__:15 - Initializing LinkedIn Extractor App
+2025-04-28 17:30:52 | INFO     | __main__:main:13 - Starting LinkedIn Data Extractor
+2025-04-28 17:30:52 | INFO     | src.config:load_config:14 - Loading environment variables
+2025-04-28 17:30:52 | DEBUG    | src.api.texau_client:__init__:30 - TexAU client initialized with complete authentication
+2025-04-28 17:30:52 | DEBUG    | src.api.linkedin_api:__init__:11 - LinkedIn API client initialized
+2025-04-28 17:30:52 | DEBUG    | src.ui.app:__init__:15 - Initializing LinkedIn Extractor App
+2025-04-28 17:30:52 | INFO     | src.ui.app:post_extraction_page:153 - Extracting data for post: https://www.linkedin.com/feed/update/urn:li:activity:7322586676587823104?utm_source=share&utm_medium=member_desktop&rcm=ACoAADk5XawBTiCZkEWM7--nzXUWGSUUfxp_nxQ
+2025-04-28 17:30:52 | INFO     | src.api.linkedin_api:extract_post_data:45 - Extracting data from LinkedIn post: https://www.linkedin.com/feed/update/urn:li:activity:7322586676587823104?utm_source=share&utm_medium=member_desktop&rcm=ACoAADk5XawBTiCZkEWM7--nzXUWGSUUfxp_nxQ
+2025-04-28 17:30:52 | DEBUG    | src.api.texau_client:_make_request:46 - Making API request to endpoint: automation/execute
+2025-04-28 17:30:53 | ERROR    | src.api.texau_client:_make_request:69 - API request failed: 404 Client Error: Not Found for url: https://api.texau.com/api/v1/automation/execute
+2025-04-28 17:30:53 | ERROR    | src.api.linkedin_api:extract_post_data:58 - Failed to extract post data: 404 Client Error: Not Found for url: https://api.texau.com/api/v1/automation/execute
+2025-04-28 17:30:53 | ERROR    | src.ui.app:post_extraction_page:186 - Error in post extraction: 404 Client Error: Not Found for url: https://api.texau.com/api/v1/automation/execute
+2025-04-28 17:30:57 | INFO     | __main__:main:13 - Starting LinkedIn Data Extractor
+2025-04-28 17:30:57 | INFO     | src.config:load_config:14 - Loading environment variables
+2025-04-28 17:30:57 | DEBUG    | src.api.texau_client:__init__:30 - TexAU client initialized with complete authentication
+2025-04-28 17:30:57 | DEBUG    | src.api.linkedin_api:__init__:11 - LinkedIn API client initialized
+2025-04-28 17:30:57 | DEBUG    | src.ui.app:__init__:15 - Initializing LinkedIn Extractor App
+2025-04-28 17:30:57 | INFO     | src.ui.app:post_extraction_page:153 - Extracting data for post: https://www.linkedin.com/feed/update/urn:li:activity:7322586676587823104?utm_source=share&utm_medium=member_desktop&rcm=ACoAADk5XawBTiCZkEWM7--nzXUWGSUUfxp_nxQ
+2025-04-28 17:30:57 | INFO     | src.api.linkedin_api:extract_post_data:45 - Extracting data from LinkedIn post: https://www.linkedin.com/feed/update/urn:li:activity:7322586676587823104?utm_source=share&utm_medium=member_desktop&rcm=ACoAADk5XawBTiCZkEWM7--nzXUWGSUUfxp_nxQ
+2025-04-28 17:30:57 | DEBUG    | src.api.texau_client:_make_request:46 - Making API request to endpoint: automation/execute
+2025-04-28 17:30:58 | ERROR    | src.api.texau_client:_make_request:69 - API request failed: 404 Client Error: Not Found for url: https://api.texau.com/api/v1/automation/execute
+2025-04-28 17:30:58 | ERROR    | src.api.linkedin_api:extract_post_data:58 - Failed to extract post data: 404 Client Error: Not Found for url: https://api.texau.com/api/v1/automation/execute
+2025-04-28 17:30:58 | ERROR    | src.ui.app:post_extraction_page:186 - Error in post extraction: 404 Client Error: Not Found for url: https://api.texau.com/api/v1/automation/execute
+2025-04-28 18:19:12 | INFO     | __main__:main:13 - Starting LinkedIn Data Extractor
+2025-04-28 18:19:12 | INFO     | src.config:load_config:14 - Loading environment variables
+2025-04-28 18:19:12 | DEBUG    | src.api.texau_client:__init__:31 - TexAU client initialized with complete authentication
+2025-04-28 18:19:12 | DEBUG    | src.api.linkedin_api:__init__:10 - LinkedIn API client initialized
+2025-04-28 18:19:12 | DEBUG    | src.ui.app:__init__:15 - Initializing LinkedIn Extractor App
+2025-04-28 18:19:15 | INFO     | __main__:main:13 - Starting LinkedIn Data Extractor
+2025-04-28 18:19:15 | INFO     | src.config:load_config:14 - Loading environment variables
+2025-04-28 18:19:15 | DEBUG    | src.api.texau_client:__init__:31 - TexAU client initialized with complete authentication
+2025-04-28 18:19:15 | DEBUG    | src.api.linkedin_api:__init__:10 - LinkedIn API client initialized
+2025-04-28 18:19:15 | DEBUG    | src.ui.app:__init__:15 - Initializing LinkedIn Extractor App
+2025-04-28 18:19:45 | INFO     | __main__:main:13 - Starting LinkedIn Data Extractor
+2025-04-28 18:19:45 | INFO     | src.config:load_config:14 - Loading environment variables
+2025-04-28 18:19:45 | DEBUG    | src.api.texau_client:__init__:31 - TexAU client initialized with complete authentication
+2025-04-28 18:19:45 | DEBUG    | src.api.linkedin_api:__init__:10 - LinkedIn API client initialized
+2025-04-28 18:19:45 | DEBUG    | src.ui.app:__init__:15 - Initializing LinkedIn Extractor App
+2025-04-28 18:19:45 | INFO     | __main__:main:13 - Starting LinkedIn Data Extractor
+2025-04-28 18:19:45 | INFO     | src.config:load_config:14 - Loading environment variables
+2025-04-28 18:19:45 | DEBUG    | src.api.texau_client:__init__:31 - TexAU client initialized with complete authentication
+2025-04-28 18:19:45 | DEBUG    | src.api.linkedin_api:__init__:10 - LinkedIn API client initialized
+2025-04-28 18:19:45 | DEBUG    | src.ui.app:__init__:15 - Initializing LinkedIn Extractor App
+2025-04-28 18:19:45 | INFO     | src.ui.app:post_extraction_page:170 - Extracting data for post: https://www.linkedin.com/feed/update/urn:li:activity:7322602734497497088?utm_source=share&utm_medium=member_desktop&rcm=ACoAADk5XawBTiCZkEWM7--nzXUWGSUUfxp_nxQ
+2025-04-28 18:19:45 | ERROR    | src.ui.app:post_extraction_page:203 - Error in post extraction: LinkedInAPI.extract_post_data() missing 2 required positional arguments: 'automation_id' and 'connected_account_id'
+2025-04-28 18:22:17 | INFO     | __main__:main:13 - Starting LinkedIn Data Extractor
+2025-04-28 18:22:17 | INFO     | src.config:load_config:14 - Loading environment variables
+2025-04-28 18:22:17 | DEBUG    | src.api.texau_client:__init__:31 - TexAU client initialized with complete authentication
+2025-04-28 18:22:17 | DEBUG    | src.api.linkedin_api:__init__:10 - LinkedIn API client initialized
+2025-04-28 18:22:17 | DEBUG    | src.ui.app:__init__:15 - Initializing LinkedIn Extractor App
+2025-04-28 18:22:25 | INFO     | __main__:main:13 - Starting LinkedIn Data Extractor
+2025-04-28 18:22:25 | INFO     | src.config:load_config:14 - Loading environment variables
+2025-04-28 18:22:25 | DEBUG    | src.api.texau_client:__init__:31 - TexAU client initialized with complete authentication
+2025-04-28 18:22:25 | DEBUG    | src.api.linkedin_api:__init__:10 - LinkedIn API client initialized
+2025-04-28 18:22:25 | DEBUG    | src.ui.app:__init__:15 - Initializing LinkedIn Extractor App
+2025-04-28 18:22:36 | INFO     | __main__:main:13 - Starting LinkedIn Data Extractor
+2025-04-28 18:22:36 | INFO     | src.config:load_config:14 - Loading environment variables
+2025-04-28 18:22:36 | DEBUG    | src.api.texau_client:__init__:31 - TexAU client initialized with complete authentication
+2025-04-28 18:22:36 | DEBUG    | src.api.linkedin_api:__init__:10 - LinkedIn API client initialized
+2025-04-28 18:22:36 | DEBUG    | src.ui.app:__init__:15 - Initializing LinkedIn Extractor App
+2025-04-28 18:22:39 | INFO     | __main__:main:13 - Starting LinkedIn Data Extractor
+2025-04-28 18:22:39 | INFO     | src.config:load_config:14 - Loading environment variables
+2025-04-28 18:22:39 | DEBUG    | src.api.texau_client:__init__:31 - TexAU client initialized with complete authentication
+2025-04-28 18:22:39 | DEBUG    | src.api.linkedin_api:__init__:10 - LinkedIn API client initialized
+2025-04-28 18:22:39 | DEBUG    | src.ui.app:__init__:15 - Initializing LinkedIn Extractor App
+2025-04-28 18:22:39 | INFO     | src.ui.app:keyword_search_page:126 - Extracting posts for keywords: https://www.linkedin.com/feed/update/urn:li:activity:7322602736603009024?utm_source=share&utm_medium=member_desktop&rcm=ACoAADk5XawBTiCZkEWM7--nzXUWGSUUfxp_nxQ
+2025-04-28 18:22:39 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/automations?platformId=linkedin_platform_id
+2025-04-28 18:22:40 | ERROR    | src.api.texau_client:_make_request:78 - API request failed: 400 Client Error: Bad Request for url: https://api.texau.com/api/v1/public/automations?platformId=linkedin_platform_id
+2025-04-28 18:22:40 | ERROR    | src.ui.app:keyword_search_page:152 - Error in keyword search: 400 Client Error: Bad Request for url: https://api.texau.com/api/v1/public/automations?platformId=linkedin_platform_id
+2025-04-28 18:22:48 | INFO     | __main__:main:13 - Starting LinkedIn Data Extractor
+2025-04-28 18:22:48 | INFO     | src.config:load_config:14 - Loading environment variables
+2025-04-28 18:22:48 | DEBUG    | src.api.texau_client:__init__:31 - TexAU client initialized with complete authentication
+2025-04-28 18:22:48 | DEBUG    | src.api.linkedin_api:__init__:10 - LinkedIn API client initialized
+2025-04-28 18:22:48 | DEBUG    | src.ui.app:__init__:15 - Initializing LinkedIn Extractor App
+2025-04-28 18:22:48 | INFO     | src.ui.app:keyword_search_page:126 - Extracting posts for keywords: https://www.linkedin.com/feed/update/urn:li:activity:7322602736603009024?utm_source=share&utm_medium=member_desktop&rcm=ACoAADk5XawBTiCZkEWM7--nzXUWGSUUfxp_nxQ
+2025-04-28 18:22:48 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/automations?platformId=linkedin_platform_id
+2025-04-28 18:22:48 | ERROR    | src.api.texau_client:_make_request:78 - API request failed: 400 Client Error: Bad Request for url: https://api.texau.com/api/v1/public/automations?platformId=linkedin_platform_id
+2025-04-28 18:22:48 | ERROR    | src.ui.app:keyword_search_page:152 - Error in keyword search: 400 Client Error: Bad Request for url: https://api.texau.com/api/v1/public/automations?platformId=linkedin_platform_id
+2025-04-28 18:36:56 | INFO     | __main__:main:13 - Starting LinkedIn Data Extractor
+2025-04-28 18:36:56 | INFO     | src.config:load_config:14 - Loading environment variables
+2025-04-28 18:36:56 | DEBUG    | src.api.texau_client:__init__:31 - TexAU client initialized with complete authentication
+2025-04-28 18:36:56 | DEBUG    | src.api.linkedin_api:__init__:10 - LinkedIn API client initialized
+2025-04-28 18:36:56 | DEBUG    | src.ui.app:__init__:15 - Initializing LinkedIn Extractor App
+2025-04-28 18:37:01 | INFO     | __main__:main:13 - Starting LinkedIn Data Extractor
+2025-04-28 18:37:01 | INFO     | src.config:load_config:14 - Loading environment variables
+2025-04-28 18:37:01 | DEBUG    | src.api.texau_client:__init__:31 - TexAU client initialized with complete authentication
+2025-04-28 18:37:01 | DEBUG    | src.api.linkedin_api:__init__:10 - LinkedIn API client initialized
+2025-04-28 18:37:01 | DEBUG    | src.ui.app:__init__:15 - Initializing LinkedIn Extractor App
+2025-04-28 18:37:16 | INFO     | __main__:main:13 - Starting LinkedIn Data Extractor
+2025-04-28 18:37:16 | INFO     | src.config:load_config:14 - Loading environment variables
+2025-04-28 18:37:16 | DEBUG    | src.api.texau_client:__init__:31 - TexAU client initialized with complete authentication
+2025-04-28 18:37:16 | DEBUG    | src.api.linkedin_api:__init__:10 - LinkedIn API client initialized
+2025-04-28 18:37:16 | DEBUG    | src.ui.app:__init__:15 - Initializing LinkedIn Extractor App
+2025-04-28 18:37:16 | INFO     | __main__:main:13 - Starting LinkedIn Data Extractor
+2025-04-28 18:37:16 | INFO     | src.config:load_config:14 - Loading environment variables
+2025-04-28 18:37:16 | DEBUG    | src.api.texau_client:__init__:31 - TexAU client initialized with complete authentication
+2025-04-28 18:37:16 | DEBUG    | src.api.linkedin_api:__init__:10 - LinkedIn API client initialized
+2025-04-28 18:37:16 | DEBUG    | src.ui.app:__init__:15 - Initializing LinkedIn Extractor App
+2025-04-28 18:37:16 | INFO     | src.ui.app:post_extraction_page:170 - Extracting data for post: https://www.linkedin.com/feed/update/urn:li:activity:7322602736603009024?utm_source=share&utm_medium=member_desktop&rcm=ACoAADk5XawBTiCZkEWM7--nzXUWGSUUfxp_nxQ
+2025-04-28 18:37:16 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/automations?platformId=622f03eb770f6bba0b8facaa
+2025-04-28 18:37:17 | ERROR    | src.api.texau_client:_make_request:67 - Authentication failed. Check your API key and context.
+2025-04-28 18:37:17 | ERROR    | src.ui.app:post_extraction_page:205 - Error in post extraction: Authentication failed. Check your API key and context.
+2025-04-28 18:40:40 | INFO     | __main__:main:13 - Starting LinkedIn Data Extractor
+2025-04-28 18:40:40 | INFO     | src.config:load_config:14 - Loading environment variables
+2025-04-28 18:40:40 | DEBUG    | src.api.texau_client:__init__:31 - TexAU client initialized with complete authentication
+2025-04-28 18:40:40 | DEBUG    | src.api.linkedin_api:__init__:10 - LinkedIn API client initialized
+2025-04-28 18:40:40 | DEBUG    | src.ui.app:__init__:15 - Initializing LinkedIn Extractor App
+2025-04-28 18:40:56 | INFO     | __main__:main:13 - Starting LinkedIn Data Extractor
+2025-04-28 18:40:56 | INFO     | src.config:load_config:14 - Loading environment variables
+2025-04-28 18:40:56 | DEBUG    | src.api.texau_client:__init__:31 - TexAU client initialized with complete authentication
+2025-04-28 18:40:56 | DEBUG    | src.api.linkedin_api:__init__:10 - LinkedIn API client initialized
+2025-04-28 18:40:56 | DEBUG    | src.ui.app:__init__:15 - Initializing LinkedIn Extractor App
+2025-04-28 18:40:58 | INFO     | __main__:main:13 - Starting LinkedIn Data Extractor
+2025-04-28 18:40:58 | INFO     | src.config:load_config:14 - Loading environment variables
+2025-04-28 18:40:58 | DEBUG    | src.api.texau_client:__init__:31 - TexAU client initialized with complete authentication
+2025-04-28 18:40:58 | DEBUG    | src.api.linkedin_api:__init__:10 - LinkedIn API client initialized
+2025-04-28 18:40:58 | DEBUG    | src.ui.app:__init__:15 - Initializing LinkedIn Extractor App
+2025-04-28 18:40:59 | INFO     | __main__:main:13 - Starting LinkedIn Data Extractor
+2025-04-28 18:40:59 | INFO     | src.config:load_config:14 - Loading environment variables
+2025-04-28 18:40:59 | DEBUG    | src.api.texau_client:__init__:31 - TexAU client initialized with complete authentication
+2025-04-28 18:40:59 | DEBUG    | src.api.linkedin_api:__init__:10 - LinkedIn API client initialized
+2025-04-28 18:40:59 | DEBUG    | src.ui.app:__init__:15 - Initializing LinkedIn Extractor App
+2025-04-28 18:40:59 | INFO     | src.ui.app:post_extraction_page:170 - Extracting data for post: https://www.linkedin.com/feed/update/urn:li:activity:7322602736603009024?utm_source=share&utm_medium=member_desktop&rcm=ACoAADk5XawBTiCZkEWM7--nzXUWGSUUfxp_nxQ
+2025-04-28 18:40:59 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/automations?platformId=622f03eb770f6bba0b8facaa
+2025-04-28 18:41:00 | INFO     | src.api.linkedin_api:extract_post_data:55 - Extracting data from LinkedIn post: https://www.linkedin.com/feed/update/urn:li:activity:7322602736603009024?utm_source=share&utm_medium=member_desktop&rcm=ACoAADk5XawBTiCZkEWM7--nzXUWGSUUfxp_nxQ
+2025-04-28 18:41:00 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/run
+2025-04-28 18:41:00 | ERROR    | src.api.texau_client:_make_request:78 - API request failed: 400 Client Error: Bad Request for url: https://api.texau.com/api/v1/public/run
+2025-04-28 18:41:00 | ERROR    | src.ui.app:post_extraction_page:205 - Error in post extraction: 400 Client Error: Bad Request for url: https://api.texau.com/api/v1/public/run
+2025-04-28 18:45:20 | INFO     | __main__:main:13 - Starting LinkedIn Data Extractor
+2025-04-28 18:45:20 | INFO     | src.config:load_config:14 - Loading environment variables
+2025-04-28 18:45:20 | DEBUG    | src.api.texau_client:__init__:31 - TexAU client initialized with complete authentication
+2025-04-28 18:45:20 | DEBUG    | src.api.linkedin_api:__init__:11 - LinkedIn API client initialized
+2025-04-28 18:45:20 | DEBUG    | src.ui.app:__init__:15 - Initializing LinkedIn Extractor App
+2025-04-28 18:45:25 | INFO     | __main__:main:13 - Starting LinkedIn Data Extractor
+2025-04-28 18:45:25 | INFO     | src.config:load_config:14 - Loading environment variables
+2025-04-28 18:45:25 | DEBUG    | src.api.texau_client:__init__:31 - TexAU client initialized with complete authentication
+2025-04-28 18:45:25 | DEBUG    | src.api.linkedin_api:__init__:11 - LinkedIn API client initialized
+2025-04-28 18:45:25 | DEBUG    | src.ui.app:__init__:15 - Initializing LinkedIn Extractor App
+2025-04-28 18:45:31 | INFO     | __main__:main:13 - Starting LinkedIn Data Extractor
+2025-04-28 18:45:31 | INFO     | src.config:load_config:14 - Loading environment variables
+2025-04-28 18:45:31 | DEBUG    | src.api.texau_client:__init__:31 - TexAU client initialized with complete authentication
+2025-04-28 18:45:31 | DEBUG    | src.api.linkedin_api:__init__:11 - LinkedIn API client initialized
+2025-04-28 18:45:31 | DEBUG    | src.ui.app:__init__:15 - Initializing LinkedIn Extractor App
+2025-04-28 18:45:45 | INFO     | __main__:main:13 - Starting LinkedIn Data Extractor
+2025-04-28 18:45:45 | INFO     | src.config:load_config:14 - Loading environment variables
+2025-04-28 18:45:45 | DEBUG    | src.api.texau_client:__init__:31 - TexAU client initialized with complete authentication
+2025-04-28 18:45:45 | DEBUG    | src.api.linkedin_api:__init__:11 - LinkedIn API client initialized
+2025-04-28 18:45:45 | DEBUG    | src.ui.app:__init__:15 - Initializing LinkedIn Extractor App
+2025-04-28 18:45:45 | INFO     | __main__:main:13 - Starting LinkedIn Data Extractor
+2025-04-28 18:45:45 | INFO     | src.config:load_config:14 - Loading environment variables
+2025-04-28 18:45:45 | DEBUG    | src.api.texau_client:__init__:31 - TexAU client initialized with complete authentication
+2025-04-28 18:45:45 | DEBUG    | src.api.linkedin_api:__init__:11 - LinkedIn API client initialized
+2025-04-28 18:45:45 | DEBUG    | src.ui.app:__init__:15 - Initializing LinkedIn Extractor App
+2025-04-28 18:45:45 | INFO     | src.ui.app:post_extraction_page:170 - Extracting data for post: https://www.linkedin.com/posts/gokuleswaranb-ethacker_sony-appsec-cyber-activity-7322139263708319744-ntbS?utm_source=share&utm_medium=member_desktop&rcm=ACoAADk5XawBTiCZkEWM7--nzXUWGSUUfxp_nxQ
+2025-04-28 18:45:45 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/automations?platformId=622f03eb770f6bba0b8facaa
+2025-04-28 18:45:46 | INFO     | src.api.linkedin_api:extract_post_data:57 - Extracting data from LinkedIn post: https://www.linkedin.com/posts/gokuleswaranb-ethacker_sony-appsec-cyber-activity-7322139263708319744-ntbS?utm_source=share&utm_medium=member_desktop&rcm=ACoAADk5XawBTiCZkEWM7--nzXUWGSUUfxp_nxQ
+2025-04-28 18:45:46 | DEBUG    | src.api.linkedin_api:run_automation:34 - Payload sent to TexAU /run: {
+  "name": "Post Extraction",
+  "description": "Extract LinkedIn post data",
+  "automationId": null,
+  "connectedAccountId": "67ffa43877d8e1e658850bc3",
+  "timezone": "Asia/Kolkata",
+  "inputs": {
+    "url": "https://www.linkedin.com/posts/gokuleswaranb-ethacker_sony-appsec-cyber-activity-7322139263708319744-ntbS?utm_source=share&utm_medium=member_desktop&rcm=ACoAADk5XawBTiCZkEWM7--nzXUWGSUUfxp_nxQ"
+  }
+}
+2025-04-28 18:45:46 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/run
+2025-04-28 18:45:47 | ERROR    | src.api.texau_client:_make_request:78 - API request failed: 400 Client Error: Bad Request for url: https://api.texau.com/api/v1/public/run
+2025-04-28 18:45:47 | ERROR    | src.ui.app:post_extraction_page:205 - Error in post extraction: 400 Client Error: Bad Request for url: https://api.texau.com/api/v1/public/run

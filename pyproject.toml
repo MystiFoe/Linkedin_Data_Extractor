@@ -1,0 +1,30 @@
+[tool.poetry]
+name = "linkedin-data-extractor"
+version = "0.1.0"
+description = "A tool for extracting LinkedIn data using TexAU API"
+authors = ["Giritharan Mani"]
+
+[tool.poetry.dependencies]
+python = ">=3.9,<3.9.7 || >3.9.7,<4.0"
+streamlit = "^1.28.0"
+requests = "^2.31.0"
+pandas = "^2.1.1"
+openpyxl = "^3.1.2"
+python-dotenv = "^1.0.0"
+loguru = "^0.7.2"
+transformers = "^4.35.0"
+sentence-transformers = "^2.2.2"
+torch = "^2.1.0"
+faiss-cpu = "^1.7.4"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.4.2"
+black = "^23.9.1"
+isort = "^5.12.0"
+
+[[tool.poetry.packages]]
+include = "src"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

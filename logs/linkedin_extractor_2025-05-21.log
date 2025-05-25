@@ -1,0 +1,1237 @@
+2025-05-21 11:58:58 | INFO     | __main__:main:13 - Starting LinkedIn Data Extractor
+2025-05-21 11:58:58 | INFO     | src.config:load_config:14 - Loading environment variables
+2025-05-21 11:58:58 | DEBUG    | src.api.texau_client:__init__:31 - TexAU client initialized with complete authentication
+2025-05-21 11:58:58 | DEBUG    | src.api.linkedin_api:__init__:11 - LinkedIn API client initialized
+2025-05-21 11:58:58 | DEBUG    | src.ui.app:__init__:17 - Initializing LinkedIn Extractor App
+2025-05-21 11:59:07 | INFO     | __main__:main:13 - Starting LinkedIn Data Extractor
+2025-05-21 11:59:07 | INFO     | src.config:load_config:14 - Loading environment variables
+2025-05-21 11:59:07 | DEBUG    | src.api.texau_client:__init__:31 - TexAU client initialized with complete authentication
+2025-05-21 11:59:07 | DEBUG    | src.api.linkedin_api:__init__:11 - LinkedIn API client initialized
+2025-05-21 11:59:07 | DEBUG    | src.ui.app:__init__:17 - Initializing LinkedIn Extractor App
+2025-05-21 11:59:16 | INFO     | __main__:main:13 - Starting LinkedIn Data Extractor
+2025-05-21 11:59:16 | INFO     | src.config:load_config:14 - Loading environment variables
+2025-05-21 11:59:16 | DEBUG    | src.api.texau_client:__init__:31 - TexAU client initialized with complete authentication
+2025-05-21 11:59:16 | DEBUG    | src.api.linkedin_api:__init__:11 - LinkedIn API client initialized
+2025-05-21 11:59:16 | DEBUG    | src.ui.app:__init__:17 - Initializing LinkedIn Extractor App
+2025-05-21 11:59:19 | INFO     | __main__:main:13 - Starting LinkedIn Data Extractor
+2025-05-21 11:59:19 | INFO     | src.config:load_config:14 - Loading environment variables
+2025-05-21 11:59:19 | DEBUG    | src.api.texau_client:__init__:31 - TexAU client initialized with complete authentication
+2025-05-21 11:59:19 | DEBUG    | src.api.linkedin_api:__init__:11 - LinkedIn API client initialized
+2025-05-21 11:59:19 | DEBUG    | src.ui.app:__init__:17 - Initializing LinkedIn Extractor App
+2025-05-21 11:59:19 | INFO     | __main__:main:13 - Starting LinkedIn Data Extractor
+2025-05-21 11:59:19 | INFO     | src.config:load_config:14 - Loading environment variables
+2025-05-21 11:59:19 | DEBUG    | src.api.texau_client:__init__:31 - TexAU client initialized with complete authentication
+2025-05-21 11:59:19 | DEBUG    | src.api.linkedin_api:__init__:11 - LinkedIn API client initialized
+2025-05-21 11:59:19 | DEBUG    | src.ui.app:__init__:17 - Initializing LinkedIn Extractor App
+2025-05-21 11:59:19 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/automations?platformId=622f03eb770f6bba0b8facaa
+2025-05-21 11:59:20 | DEBUG    | src.api.linkedin_api:run_automation:34 - Payload sent to TexAU /run: {
+  "name": "Pipeline Keyword Search",
+  "description": "Pipeline: Search LinkedIn posts by keywords",
+  "automationId": "64099c6e0936e46db5d76f4c",
+  "connectedAccountId": "67ffa43877d8e1e658850bc3",
+  "timezone": "Asia/Kolkata",
+  "inputs": {
+    "liPostSearchUrl": "workforce",
+    "maxCountPostSearch": 5
+  }
+}
+2025-05-21 11:59:20 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/run
+2025-05-21 11:59:21 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d72c29b7201d753d01f1e
+2025-05-21 11:59:23 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d72c29b7201d753d01f1e
+2025-05-21 11:59:25 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d72c29b7201d753d01f1e
+2025-05-21 11:59:26 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d72c29b7201d753d01f1e
+2025-05-21 11:59:28 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d72c29b7201d753d01f1e
+2025-05-21 11:59:30 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d72c29b7201d753d01f1e
+2025-05-21 11:59:32 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d72c29b7201d753d01f1e
+2025-05-21 11:59:34 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d72c29b7201d753d01f1e
+2025-05-21 11:59:36 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d72c29b7201d753d01f1e
+2025-05-21 11:59:37 | DEBUG    | src.api.linkedin_api:run_automation:34 - Payload sent to TexAU /run: {
+  "name": "Pipeline Author Profile Extraction",
+  "description": "Pipeline: Extract author profile",
+  "automationId": "63f48ee97022e05c116fc798",
+  "connectedAccountId": "67ffa43877d8e1e658850bc3",
+  "timezone": "Asia/Kolkata",
+  "inputs": {
+    "liProfileUrl": "https://www.linkedin.com/in/dipanjan-das-23382a343?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAFYV9scBvjV7yJOJ74--NrQ3X6kQMo7ZI7s"
+  }
+}
+2025-05-21 11:59:37 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/run
+2025-05-21 11:59:38 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d72d39b7201d753d0237d
+2025-05-21 11:59:40 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d72d39b7201d753d0237d
+2025-05-21 11:59:42 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d72d39b7201d753d0237d
+2025-05-21 11:59:44 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d72d39b7201d753d0237d
+2025-05-21 11:59:45 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d72d39b7201d753d0237d
+2025-05-21 11:59:47 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d72d39b7201d753d0237d
+2025-05-21 11:59:49 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d72d39b7201d753d0237d
+2025-05-21 11:59:51 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d72d39b7201d753d0237d
+2025-05-21 11:59:54 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d72d39b7201d753d0237d
+2025-05-21 11:59:55 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d72d39b7201d753d0237d
+2025-05-21 11:59:57 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d72d39b7201d753d0237d
+2025-05-21 11:59:59 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d72d39b7201d753d0237d
+2025-05-21 12:00:01 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d72d39b7201d753d0237d
+2025-05-21 12:00:03 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d72d39b7201d753d0237d
+2025-05-21 12:00:05 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d72d39b7201d753d0237d
+2025-05-21 12:00:07 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d72d39b7201d753d0237d
+2025-05-21 12:00:09 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d72d39b7201d753d0237d
+2025-05-21 12:00:11 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d72d39b7201d753d0237d
+2025-05-21 12:00:12 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d72d39b7201d753d0237d
+2025-05-21 12:00:14 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d72d39b7201d753d0237d
+2025-05-21 12:00:16 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d72d39b7201d753d0237d
+2025-05-21 12:00:18 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d72d39b7201d753d0237d
+2025-05-21 12:00:20 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d72d39b7201d753d0237d
+2025-05-21 12:00:22 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d72d39b7201d753d0237d
+2025-05-21 12:00:24 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d72d39b7201d753d0237d
+2025-05-21 12:00:26 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d72d39b7201d753d0237d
+2025-05-21 12:00:28 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d72d39b7201d753d0237d
+2025-05-21 12:00:30 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d72d39b7201d753d0237d
+2025-05-21 12:00:31 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d72d39b7201d753d0237d
+2025-05-21 12:00:32 | DEBUG    | src.api.linkedin_api:run_automation:34 - Payload sent to TexAU /run: {
+  "name": "Pipeline Author Profile Extraction",
+  "description": "Pipeline: Extract author profile",
+  "automationId": "63f48ee97022e05c116fc798",
+  "connectedAccountId": "67ffa43877d8e1e658850bc3",
+  "timezone": "Asia/Kolkata",
+  "inputs": {
+    "liProfileUrl": "https://www.linkedin.com/in/philabernathy?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAAc7CkBvxY-WJkIk8ZvzqHF03FzKchcS9I"
+  }
+}
+2025-05-21 12:00:32 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/run
+2025-05-21 12:00:33 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d730a9b7201d753d032ca
+2025-05-21 12:00:35 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d730a9b7201d753d032ca
+2025-05-21 12:00:37 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d730a9b7201d753d032ca
+2025-05-21 12:00:39 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d730a9b7201d753d032ca
+2025-05-21 12:00:41 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d730a9b7201d753d032ca
+2025-05-21 12:00:43 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d730a9b7201d753d032ca
+2025-05-21 12:00:44 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d730a9b7201d753d032ca
+2025-05-21 12:00:46 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d730a9b7201d753d032ca
+2025-05-21 12:00:48 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d730a9b7201d753d032ca
+2025-05-21 12:00:50 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d730a9b7201d753d032ca
+2025-05-21 12:00:52 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d730a9b7201d753d032ca
+2025-05-21 12:00:54 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d730a9b7201d753d032ca
+2025-05-21 12:00:56 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d730a9b7201d753d032ca
+2025-05-21 12:00:58 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d730a9b7201d753d032ca
+2025-05-21 12:00:59 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d730a9b7201d753d032ca
+2025-05-21 12:01:01 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d730a9b7201d753d032ca
+2025-05-21 12:01:03 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d730a9b7201d753d032ca
+2025-05-21 12:01:05 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d730a9b7201d753d032ca
+2025-05-21 12:01:07 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d730a9b7201d753d032ca
+2025-05-21 12:01:09 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d730a9b7201d753d032ca
+2025-05-21 12:01:10 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d730a9b7201d753d032ca
+2025-05-21 12:01:12 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d730a9b7201d753d032ca
+2025-05-21 12:01:14 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d730a9b7201d753d032ca
+2025-05-21 12:01:16 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d730a9b7201d753d032ca
+2025-05-21 12:01:18 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d730a9b7201d753d032ca
+2025-05-21 12:01:20 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d730a9b7201d753d032ca
+2025-05-21 12:01:21 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d730a9b7201d753d032ca
+2025-05-21 12:01:23 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d730a9b7201d753d032ca
+2025-05-21 12:01:25 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d730a9b7201d753d032ca
+2025-05-21 12:01:26 | DEBUG    | src.api.linkedin_api:run_automation:34 - Payload sent to TexAU /run: {
+  "name": "Pipeline Author Profile Extraction",
+  "description": "Pipeline: Extract author profile",
+  "automationId": "63f48ee97022e05c116fc798",
+  "connectedAccountId": "67ffa43877d8e1e658850bc3",
+  "timezone": "Asia/Kolkata",
+  "inputs": {
+    "liProfileUrl": "https://www.linkedin.com/in/harshdeep-saxena-15722912a?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAB-2l5MBC3eVtzvES5iy0kHsnymXPlJ1gQY"
+  }
+}
+2025-05-21 12:01:26 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/run
+2025-05-21 12:01:27 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d73409b7201d753d03fe0
+2025-05-21 12:01:29 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d73409b7201d753d03fe0
+2025-05-21 12:01:31 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d73409b7201d753d03fe0
+2025-05-21 12:01:33 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d73409b7201d753d03fe0
+2025-05-21 12:01:35 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d73409b7201d753d03fe0
+2025-05-21 12:01:37 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d73409b7201d753d03fe0
+2025-05-21 12:01:39 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d73409b7201d753d03fe0
+2025-05-21 12:01:41 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d73409b7201d753d03fe0
+2025-05-21 12:01:43 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d73409b7201d753d03fe0
+2025-05-21 12:01:45 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d73409b7201d753d03fe0
+2025-05-21 12:01:46 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d73409b7201d753d03fe0
+2025-05-21 12:01:49 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d73409b7201d753d03fe0
+2025-05-21 12:01:50 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d73409b7201d753d03fe0
+2025-05-21 12:01:52 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d73409b7201d753d03fe0
+2025-05-21 12:01:54 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d73409b7201d753d03fe0
+2025-05-21 12:01:56 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d73409b7201d753d03fe0
+2025-05-21 12:01:58 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d73409b7201d753d03fe0
+2025-05-21 12:02:00 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d73409b7201d753d03fe0
+2025-05-21 12:02:02 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d73409b7201d753d03fe0
+2025-05-21 12:02:04 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d73409b7201d753d03fe0
+2025-05-21 12:02:05 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d73409b7201d753d03fe0
+2025-05-21 12:02:07 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d73409b7201d753d03fe0
+2025-05-21 12:02:09 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d73409b7201d753d03fe0
+2025-05-21 12:02:11 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d73409b7201d753d03fe0
+2025-05-21 12:02:13 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d73409b7201d753d03fe0
+2025-05-21 12:02:15 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d73409b7201d753d03fe0
+2025-05-21 12:02:17 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d73409b7201d753d03fe0
+2025-05-21 12:02:19 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d73409b7201d753d03fe0
+2025-05-21 12:02:20 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d73409b7201d753d03fe0
+2025-05-21 12:02:21 | DEBUG    | src.api.linkedin_api:run_automation:34 - Payload sent to TexAU /run: {
+  "name": "Pipeline Author Profile Extraction",
+  "description": "Pipeline: Extract author profile",
+  "automationId": "63f48ee97022e05c116fc798",
+  "connectedAccountId": "67ffa43877d8e1e658850bc3",
+  "timezone": "Asia/Kolkata",
+  "inputs": {
+    "liProfileUrl": "https://www.linkedin.com/in/adityadav14?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAyXs_wBPpp88TfU0YXinxkdxeFhAxjTrlA"
+  }
+}
+2025-05-21 12:02:21 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/run
+2025-05-21 12:02:22 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d73779b7201d753d04c4e
+2025-05-21 12:02:24 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d73779b7201d753d04c4e
+2025-05-21 12:02:26 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d73779b7201d753d04c4e
+2025-05-21 12:02:28 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d73779b7201d753d04c4e
+2025-05-21 12:02:30 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d73779b7201d753d04c4e
+2025-05-21 12:02:32 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d73779b7201d753d04c4e
+2025-05-21 12:02:34 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d73779b7201d753d04c4e
+2025-05-21 12:02:36 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d73779b7201d753d04c4e
+2025-05-21 12:02:37 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d73779b7201d753d04c4e
+2025-05-21 12:02:39 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d73779b7201d753d04c4e
+2025-05-21 12:02:41 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d73779b7201d753d04c4e
+2025-05-21 12:02:43 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d73779b7201d753d04c4e
+2025-05-21 12:02:45 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d73779b7201d753d04c4e
+2025-05-21 12:02:47 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d73779b7201d753d04c4e
+2025-05-21 12:02:49 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d73779b7201d753d04c4e
+2025-05-21 12:02:50 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d73779b7201d753d04c4e
+2025-05-21 12:02:52 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d73779b7201d753d04c4e
+2025-05-21 12:02:54 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d73779b7201d753d04c4e
+2025-05-21 12:02:56 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d73779b7201d753d04c4e
+2025-05-21 12:02:58 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d73779b7201d753d04c4e
+2025-05-21 12:03:00 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d73779b7201d753d04c4e
+2025-05-21 12:03:02 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d73779b7201d753d04c4e
+2025-05-21 12:03:03 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d73779b7201d753d04c4e
+2025-05-21 12:03:05 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d73779b7201d753d04c4e
+2025-05-21 12:03:07 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d73779b7201d753d04c4e
+2025-05-21 12:03:09 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d73779b7201d753d04c4e
+2025-05-21 12:03:11 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d73779b7201d753d04c4e
+2025-05-21 12:03:13 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d73779b7201d753d04c4e
+2025-05-21 12:03:15 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d73779b7201d753d04c4e
+2025-05-21 12:03:17 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d73779b7201d753d04c4e
+2025-05-21 12:03:18 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d73779b7201d753d04c4e
+2025-05-21 12:03:19 | DEBUG    | src.api.linkedin_api:run_automation:34 - Payload sent to TexAU /run: {
+  "name": "Pipeline Author Profile Extraction",
+  "description": "Pipeline: Extract author profile",
+  "automationId": "63f48ee97022e05c116fc798",
+  "connectedAccountId": "67ffa43877d8e1e658850bc3",
+  "timezone": "Asia/Kolkata",
+  "inputs": {
+    "liProfileUrl": "https://www.linkedin.com/in/vsravi28?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAXj75YBwy92m52akJG60HOiNR7tLeczHxQ"
+  }
+}
+2025-05-21 12:03:19 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/run
+2025-05-21 12:03:20 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d73b09b7201d753d058a6
+2025-05-21 12:03:22 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d73b09b7201d753d058a6
+2025-05-21 12:03:24 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d73b09b7201d753d058a6
+2025-05-21 12:03:26 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d73b09b7201d753d058a6
+2025-05-21 12:03:27 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d73b09b7201d753d058a6
+2025-05-21 12:03:29 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d73b09b7201d753d058a6
+2025-05-21 12:03:31 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d73b09b7201d753d058a6
+2025-05-21 12:03:33 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d73b09b7201d753d058a6
+2025-05-21 12:03:35 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d73b09b7201d753d058a6
+2025-05-21 12:03:37 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d73b09b7201d753d058a6
+2025-05-21 12:03:39 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d73b09b7201d753d058a6
+2025-05-21 12:03:40 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d73b09b7201d753d058a6
+2025-05-21 12:03:42 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d73b09b7201d753d058a6
+2025-05-21 12:03:44 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d73b09b7201d753d058a6
+2025-05-21 12:03:46 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d73b09b7201d753d058a6
+2025-05-21 12:03:48 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d73b09b7201d753d058a6
+2025-05-21 12:03:50 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d73b09b7201d753d058a6
+2025-05-21 12:03:52 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d73b09b7201d753d058a6
+2025-05-21 12:03:54 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d73b09b7201d753d058a6
+2025-05-21 12:03:56 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d73b09b7201d753d058a6
+2025-05-21 12:03:57 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d73b09b7201d753d058a6
+2025-05-21 12:03:59 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d73b09b7201d753d058a6
+2025-05-21 12:04:01 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d73b09b7201d753d058a6
+2025-05-21 12:04:03 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d73b09b7201d753d058a6
+2025-05-21 12:04:05 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d73b09b7201d753d058a6
+2025-05-21 12:04:07 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d73b09b7201d753d058a6
+2025-05-21 12:04:09 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d73b09b7201d753d058a6
+2025-05-21 12:04:11 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d73b09b7201d753d058a6
+2025-05-21 12:04:13 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d73b09b7201d753d058a6
+2025-05-21 12:04:15 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d73b09b7201d753d058a6
+2025-05-21 12:04:16 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d73b09b7201d753d058a6
+2025-05-21 12:04:18 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d73b09b7201d753d058a6
+2025-05-21 12:04:20 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d73b09b7201d753d058a6
+2025-05-21 12:04:22 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d73b09b7201d753d058a6
+2025-05-21 12:04:24 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d73b09b7201d753d058a6
+2025-05-21 12:04:26 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d73b09b7201d753d058a6
+2025-05-21 12:04:28 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d73b09b7201d753d058a6
+2025-05-21 12:04:30 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d73b09b7201d753d058a6
+2025-05-21 12:04:31 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d73b09b7201d753d058a6
+2025-05-21 12:04:42 | INFO     | __main__:main:13 - Starting LinkedIn Data Extractor
+2025-05-21 12:04:42 | INFO     | src.config:load_config:14 - Loading environment variables
+2025-05-21 12:04:42 | DEBUG    | src.api.texau_client:__init__:31 - TexAU client initialized with complete authentication
+2025-05-21 12:04:42 | DEBUG    | src.api.linkedin_api:__init__:11 - LinkedIn API client initialized
+2025-05-21 12:04:42 | DEBUG    | src.ui.app:__init__:17 - Initializing LinkedIn Extractor App
+2025-05-21 12:04:45 | INFO     | __main__:main:13 - Starting LinkedIn Data Extractor
+2025-05-21 12:04:45 | INFO     | src.config:load_config:14 - Loading environment variables
+2025-05-21 12:04:45 | DEBUG    | src.api.texau_client:__init__:31 - TexAU client initialized with complete authentication
+2025-05-21 12:04:45 | DEBUG    | src.api.linkedin_api:__init__:11 - LinkedIn API client initialized
+2025-05-21 12:04:45 | DEBUG    | src.ui.app:__init__:17 - Initializing LinkedIn Extractor App
+2025-05-21 12:04:45 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/automations?platformId=622f03eb770f6bba0b8facaa
+2025-05-21 12:04:46 | DEBUG    | src.api.linkedin_api:run_automation:34 - Payload sent to TexAU /run: {
+  "name": "Pipeline Keyword Search",
+  "description": "Pipeline: Search LinkedIn posts by keywords",
+  "automationId": "64099c6e0936e46db5d76f4c",
+  "connectedAccountId": "67ffa43877d8e1e658850bc3",
+  "timezone": "Asia/Kolkata",
+  "inputs": {
+    "liPostSearchUrl": "workforce",
+    "maxCountPostSearch": 20
+  }
+}
+2025-05-21 12:04:46 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/run
+2025-05-21 12:04:47 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d74079b7201d753d06b2b
+2025-05-21 12:04:49 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d74079b7201d753d06b2b
+2025-05-21 12:04:51 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d74079b7201d753d06b2b
+2025-05-21 12:04:52 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d74079b7201d753d06b2b
+2025-05-21 12:04:54 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d74079b7201d753d06b2b
+2025-05-21 12:04:56 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d74079b7201d753d06b2b
+2025-05-21 12:04:58 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d74079b7201d753d06b2b
+2025-05-21 12:05:00 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d74079b7201d753d06b2b
+2025-05-21 12:05:02 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d74079b7201d753d06b2b
+2025-05-21 12:05:03 | DEBUG    | src.api.linkedin_api:run_automation:34 - Payload sent to TexAU /run: {
+  "name": "Pipeline Author Profile Extraction",
+  "description": "Pipeline: Extract author profile",
+  "automationId": "63f48ee97022e05c116fc798",
+  "connectedAccountId": "67ffa43877d8e1e658850bc3",
+  "timezone": "Asia/Kolkata",
+  "inputs": {
+    "liProfileUrl": "https://www.linkedin.com/in/dipanjan-das-23382a343?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAFYV9scBvjV7yJOJ74--NrQ3X6kQMo7ZI7s"
+  }
+}
+2025-05-21 12:05:03 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/run
+2025-05-21 12:05:04 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d74189b7201d753d06f9f
+2025-05-21 12:05:06 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d74189b7201d753d06f9f
+2025-05-21 12:05:08 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d74189b7201d753d06f9f
+2025-05-21 12:05:10 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d74189b7201d753d06f9f
+2025-05-21 12:05:11 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d74189b7201d753d06f9f
+2025-05-21 12:05:13 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d74189b7201d753d06f9f
+2025-05-21 12:05:15 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d74189b7201d753d06f9f
+2025-05-21 12:05:17 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d74189b7201d753d06f9f
+2025-05-21 12:05:19 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d74189b7201d753d06f9f
+2025-05-21 12:05:21 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d74189b7201d753d06f9f
+2025-05-21 12:05:23 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d74189b7201d753d06f9f
+2025-05-21 12:05:24 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d74189b7201d753d06f9f
+2025-05-21 12:05:26 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d74189b7201d753d06f9f
+2025-05-21 12:05:28 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d74189b7201d753d06f9f
+2025-05-21 12:05:30 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d74189b7201d753d06f9f
+2025-05-21 12:05:32 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d74189b7201d753d06f9f
+2025-05-21 12:05:34 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d74189b7201d753d06f9f
+2025-05-21 12:05:36 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d74189b7201d753d06f9f
+2025-05-21 12:05:38 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d74189b7201d753d06f9f
+2025-05-21 12:05:39 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d74189b7201d753d06f9f
+2025-05-21 12:05:41 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d74189b7201d753d06f9f
+2025-05-21 12:05:43 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d74189b7201d753d06f9f
+2025-05-21 12:05:45 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d74189b7201d753d06f9f
+2025-05-21 12:05:47 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d74189b7201d753d06f9f
+2025-05-21 12:05:49 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d74189b7201d753d06f9f
+2025-05-21 12:05:51 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d74189b7201d753d06f9f
+2025-05-21 12:05:53 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d74189b7201d753d06f9f
+2025-05-21 12:05:55 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d74189b7201d753d06f9f
+2025-05-21 12:05:57 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d74189b7201d753d06f9f
+2025-05-21 12:05:59 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d74189b7201d753d06f9f
+2025-05-21 12:06:00 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d74189b7201d753d06f9f
+2025-05-21 12:06:02 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d74189b7201d753d06f9f
+2025-05-21 12:06:04 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d74189b7201d753d06f9f
+2025-05-21 12:06:05 | DEBUG    | src.api.linkedin_api:run_automation:34 - Payload sent to TexAU /run: {
+  "name": "Pipeline Author Profile Extraction",
+  "description": "Pipeline: Extract author profile",
+  "automationId": "63f48ee97022e05c116fc798",
+  "connectedAccountId": "67ffa43877d8e1e658850bc3",
+  "timezone": "Asia/Kolkata",
+  "inputs": {
+    "liProfileUrl": "https://www.linkedin.com/in/philabernathy?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAAc7CkBvxY-WJkIk8ZvzqHF03FzKchcS9I"
+  }
+}
+2025-05-21 12:06:05 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/run
+2025-05-21 12:06:06 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d74559b7201d753d07de4
+2025-05-21 12:06:08 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d74559b7201d753d07de4
+2025-05-21 12:06:10 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d74559b7201d753d07de4
+2025-05-21 12:06:12 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d74559b7201d753d07de4
+2025-05-21 12:06:14 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d74559b7201d753d07de4
+2025-05-21 12:06:16 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d74559b7201d753d07de4
+2025-05-21 12:06:18 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d74559b7201d753d07de4
+2025-05-21 12:06:20 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d74559b7201d753d07de4
+2025-05-21 12:06:21 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d74559b7201d753d07de4
+2025-05-21 12:06:24 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d74559b7201d753d07de4
+2025-05-21 12:06:25 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d74559b7201d753d07de4
+2025-05-21 12:06:27 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d74559b7201d753d07de4
+2025-05-21 12:06:29 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d74559b7201d753d07de4
+2025-05-21 12:06:31 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d74559b7201d753d07de4
+2025-05-21 12:06:33 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d74559b7201d753d07de4
+2025-05-21 12:06:35 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d74559b7201d753d07de4
+2025-05-21 12:06:37 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d74559b7201d753d07de4
+2025-05-21 12:06:39 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d74559b7201d753d07de4
+2025-05-21 12:06:41 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d74559b7201d753d07de4
+2025-05-21 12:06:42 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d74559b7201d753d07de4
+2025-05-21 12:06:44 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d74559b7201d753d07de4
+2025-05-21 12:06:46 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d74559b7201d753d07de4
+2025-05-21 12:06:48 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d74559b7201d753d07de4
+2025-05-21 12:06:50 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d74559b7201d753d07de4
+2025-05-21 12:06:52 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d74559b7201d753d07de4
+2025-05-21 12:06:54 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d74559b7201d753d07de4
+2025-05-21 12:06:56 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d74559b7201d753d07de4
+2025-05-21 12:06:58 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d74559b7201d753d07de4
+2025-05-21 12:06:59 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d74559b7201d753d07de4
+2025-05-21 12:07:01 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d74559b7201d753d07de4
+2025-05-21 12:07:02 | DEBUG    | src.api.linkedin_api:run_automation:34 - Payload sent to TexAU /run: {
+  "name": "Pipeline Author Profile Extraction",
+  "description": "Pipeline: Extract author profile",
+  "automationId": "63f48ee97022e05c116fc798",
+  "connectedAccountId": "67ffa43877d8e1e658850bc3",
+  "timezone": "Asia/Kolkata",
+  "inputs": {
+    "liProfileUrl": "https://www.linkedin.com/in/harshdeep-saxena-15722912a?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAB-2l5MBC3eVtzvES5iy0kHsnymXPlJ1gQY"
+  }
+}
+2025-05-21 12:07:02 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/run
+2025-05-21 12:07:03 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d748f9b7201d753d08b53
+2025-05-21 12:07:05 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d748f9b7201d753d08b53
+2025-05-21 12:07:07 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d748f9b7201d753d08b53
+2025-05-21 12:07:09 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d748f9b7201d753d08b53
+2025-05-21 12:07:11 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d748f9b7201d753d08b53
+2025-05-21 12:07:13 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d748f9b7201d753d08b53
+2025-05-21 12:07:15 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d748f9b7201d753d08b53
+2025-05-21 12:07:17 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d748f9b7201d753d08b53
+2025-05-21 12:07:19 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d748f9b7201d753d08b53
+2025-05-21 12:07:21 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d748f9b7201d753d08b53
+2025-05-21 12:07:23 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d748f9b7201d753d08b53
+2025-05-21 12:07:24 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d748f9b7201d753d08b53
+2025-05-21 12:07:26 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d748f9b7201d753d08b53
+2025-05-21 12:07:28 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d748f9b7201d753d08b53
+2025-05-21 12:07:30 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d748f9b7201d753d08b53
+2025-05-21 12:07:32 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d748f9b7201d753d08b53
+2025-05-21 12:07:34 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d748f9b7201d753d08b53
+2025-05-21 12:07:36 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d748f9b7201d753d08b53
+2025-05-21 12:07:38 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d748f9b7201d753d08b53
+2025-05-21 12:07:40 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d748f9b7201d753d08b53
+2025-05-21 12:07:41 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d748f9b7201d753d08b53
+2025-05-21 12:07:43 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d748f9b7201d753d08b53
+2025-05-21 12:07:45 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d748f9b7201d753d08b53
+2025-05-21 12:07:47 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d748f9b7201d753d08b53
+2025-05-21 12:07:49 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d748f9b7201d753d08b53
+2025-05-21 12:07:51 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d748f9b7201d753d08b53
+2025-05-21 12:07:53 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d748f9b7201d753d08b53
+2025-05-21 12:07:54 | DEBUG    | src.api.linkedin_api:run_automation:34 - Payload sent to TexAU /run: {
+  "name": "Pipeline Author Profile Extraction",
+  "description": "Pipeline: Extract author profile",
+  "automationId": "63f48ee97022e05c116fc798",
+  "connectedAccountId": "67ffa43877d8e1e658850bc3",
+  "timezone": "Asia/Kolkata",
+  "inputs": {
+    "liProfileUrl": "https://www.linkedin.com/in/adityadav14?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAyXs_wBPpp88TfU0YXinxkdxeFhAxjTrlA"
+  }
+}
+2025-05-21 12:07:54 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/run
+2025-05-21 12:07:55 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d74c29b7201d753d09d56
+2025-05-21 12:07:57 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d74c29b7201d753d09d56
+2025-05-21 12:07:59 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d74c29b7201d753d09d56
+2025-05-21 12:08:00 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d74c29b7201d753d09d56
+2025-05-21 12:08:02 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d74c29b7201d753d09d56
+2025-05-21 12:08:04 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d74c29b7201d753d09d56
+2025-05-21 12:08:06 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d74c29b7201d753d09d56
+2025-05-21 12:08:08 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d74c29b7201d753d09d56
+2025-05-21 12:08:10 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d74c29b7201d753d09d56
+2025-05-21 12:08:12 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d74c29b7201d753d09d56
+2025-05-21 12:08:14 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d74c29b7201d753d09d56
+2025-05-21 12:08:16 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d74c29b7201d753d09d56
+2025-05-21 12:08:18 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d74c29b7201d753d09d56
+2025-05-21 12:08:20 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d74c29b7201d753d09d56
+2025-05-21 12:08:21 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d74c29b7201d753d09d56
+2025-05-21 12:08:23 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d74c29b7201d753d09d56
+2025-05-21 12:08:25 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d74c29b7201d753d09d56
+2025-05-21 12:08:27 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d74c29b7201d753d09d56
+2025-05-21 12:08:29 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d74c29b7201d753d09d56
+2025-05-21 12:08:31 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d74c29b7201d753d09d56
+2025-05-21 12:08:33 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d74c29b7201d753d09d56
+2025-05-21 12:08:35 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d74c29b7201d753d09d56
+2025-05-21 12:08:36 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d74c29b7201d753d09d56
+2025-05-21 12:08:38 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d74c29b7201d753d09d56
+2025-05-21 12:08:40 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d74c29b7201d753d09d56
+2025-05-21 12:08:42 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d74c29b7201d753d09d56
+2025-05-21 12:08:44 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d74c29b7201d753d09d56
+2025-05-21 12:08:46 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d74c29b7201d753d09d56
+2025-05-21 12:08:48 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d74c29b7201d753d09d56
+2025-05-21 12:08:49 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d74c29b7201d753d09d56
+2025-05-21 12:08:51 | DEBUG    | src.api.linkedin_api:run_automation:34 - Payload sent to TexAU /run: {
+  "name": "Pipeline Author Profile Extraction",
+  "description": "Pipeline: Extract author profile",
+  "automationId": "63f48ee97022e05c116fc798",
+  "connectedAccountId": "67ffa43877d8e1e658850bc3",
+  "timezone": "Asia/Kolkata",
+  "inputs": {
+    "liProfileUrl": "https://www.linkedin.com/in/vsravi28?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAXj75YBwy92m52akJG60HOiNR7tLeczHxQ"
+  }
+}
+2025-05-21 12:08:51 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/run
+2025-05-21 12:08:51 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d74fb9b7201d753d0b1b6
+2025-05-21 12:08:53 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d74fb9b7201d753d0b1b6
+2025-05-21 12:08:55 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d74fb9b7201d753d0b1b6
+2025-05-21 12:08:57 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d74fb9b7201d753d0b1b6
+2025-05-21 12:09:00 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d74fb9b7201d753d0b1b6
+2025-05-21 12:09:02 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d74fb9b7201d753d0b1b6
+2025-05-21 12:09:03 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d74fb9b7201d753d0b1b6
+2025-05-21 12:09:05 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d74fb9b7201d753d0b1b6
+2025-05-21 12:09:07 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d74fb9b7201d753d0b1b6
+2025-05-21 12:09:09 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d74fb9b7201d753d0b1b6
+2025-05-21 12:09:11 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d74fb9b7201d753d0b1b6
+2025-05-21 12:09:13 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d74fb9b7201d753d0b1b6
+2025-05-21 12:09:15 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d74fb9b7201d753d0b1b6
+2025-05-21 12:09:16 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d74fb9b7201d753d0b1b6
+2025-05-21 12:09:18 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d74fb9b7201d753d0b1b6
+2025-05-21 12:09:20 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d74fb9b7201d753d0b1b6
+2025-05-21 12:09:22 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d74fb9b7201d753d0b1b6
+2025-05-21 12:09:24 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d74fb9b7201d753d0b1b6
+2025-05-21 12:09:26 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d74fb9b7201d753d0b1b6
+2025-05-21 12:09:28 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d74fb9b7201d753d0b1b6
+2025-05-21 12:09:30 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d74fb9b7201d753d0b1b6
+2025-05-21 12:09:31 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d74fb9b7201d753d0b1b6
+2025-05-21 12:09:33 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d74fb9b7201d753d0b1b6
+2025-05-21 12:09:36 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d74fb9b7201d753d0b1b6
+2025-05-21 12:09:38 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d74fb9b7201d753d0b1b6
+2025-05-21 12:09:40 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d74fb9b7201d753d0b1b6
+2025-05-21 12:09:41 | DEBUG    | src.api.linkedin_api:run_automation:34 - Payload sent to TexAU /run: {
+  "name": "Pipeline Author Profile Extraction",
+  "description": "Pipeline: Extract author profile",
+  "automationId": "63f48ee97022e05c116fc798",
+  "connectedAccountId": "67ffa43877d8e1e658850bc3",
+  "timezone": "Asia/Kolkata",
+  "inputs": {
+    "liProfileUrl": "https://www.linkedin.com/in/dhandapani-b-36207133a?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAFUVH7oB22B_X-jPh6xJa6DZL9G89b9iWAM"
+  }
+}
+2025-05-21 12:09:41 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/run
+2025-05-21 12:09:42 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d752e9b7201d753d0c356
+2025-05-21 12:09:44 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d752e9b7201d753d0c356
+2025-05-21 12:09:46 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d752e9b7201d753d0c356
+2025-05-21 12:09:47 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d752e9b7201d753d0c356
+2025-05-21 12:09:49 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d752e9b7201d753d0c356
+2025-05-21 12:09:51 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d752e9b7201d753d0c356
+2025-05-21 12:09:53 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d752e9b7201d753d0c356
+2025-05-21 12:09:55 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d752e9b7201d753d0c356
+2025-05-21 12:09:57 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d752e9b7201d753d0c356
+2025-05-21 12:09:58 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d752e9b7201d753d0c356
+2025-05-21 12:10:00 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d752e9b7201d753d0c356
+2025-05-21 12:10:02 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d752e9b7201d753d0c356
+2025-05-21 12:10:04 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d752e9b7201d753d0c356
+2025-05-21 12:10:06 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d752e9b7201d753d0c356
+2025-05-21 12:10:08 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d752e9b7201d753d0c356
+2025-05-21 12:10:10 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d752e9b7201d753d0c356
+2025-05-21 12:10:11 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d752e9b7201d753d0c356
+2025-05-21 12:10:13 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d752e9b7201d753d0c356
+2025-05-21 12:10:15 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d752e9b7201d753d0c356
+2025-05-21 12:10:17 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d752e9b7201d753d0c356
+2025-05-21 12:10:19 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d752e9b7201d753d0c356
+2025-05-21 12:10:23 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d752e9b7201d753d0c356
+2025-05-21 12:10:25 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d752e9b7201d753d0c356
+2025-05-21 12:10:27 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d752e9b7201d753d0c356
+2025-05-21 12:10:29 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d752e9b7201d753d0c356
+2025-05-21 12:10:31 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d752e9b7201d753d0c356
+2025-05-21 12:10:32 | DEBUG    | src.api.linkedin_api:run_automation:34 - Payload sent to TexAU /run: {
+  "name": "Pipeline Author Profile Extraction",
+  "description": "Pipeline: Extract author profile",
+  "automationId": "63f48ee97022e05c116fc798",
+  "connectedAccountId": "67ffa43877d8e1e658850bc3",
+  "timezone": "Asia/Kolkata",
+  "inputs": {
+    "liProfileUrl": "https://www.linkedin.com/in/anuragnahta?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAnom7UBZEHGbxoxnw_yWEiqB9B-65BYAlU"
+  }
+}
+2025-05-21 12:10:32 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/run
+2025-05-21 12:10:32 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d75609b7201d753d0d507
+2025-05-21 12:10:34 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d75609b7201d753d0d507
+2025-05-21 12:10:36 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d75609b7201d753d0d507
+2025-05-21 12:10:38 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d75609b7201d753d0d507
+2025-05-21 12:10:40 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d75609b7201d753d0d507
+2025-05-21 12:10:42 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d75609b7201d753d0d507
+2025-05-21 12:10:44 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d75609b7201d753d0d507
+2025-05-21 12:10:45 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d75609b7201d753d0d507
+2025-05-21 12:10:47 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d75609b7201d753d0d507
+2025-05-21 12:10:49 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d75609b7201d753d0d507
+2025-05-21 12:10:51 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d75609b7201d753d0d507
+2025-05-21 12:10:53 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d75609b7201d753d0d507
+2025-05-21 12:10:55 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d75609b7201d753d0d507
+2025-05-21 12:10:57 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d75609b7201d753d0d507
+2025-05-21 12:10:58 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d75609b7201d753d0d507
+2025-05-21 12:11:00 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d75609b7201d753d0d507
+2025-05-21 12:11:02 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d75609b7201d753d0d507
+2025-05-21 12:11:04 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d75609b7201d753d0d507
+2025-05-21 12:11:06 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d75609b7201d753d0d507
+2025-05-21 12:11:08 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d75609b7201d753d0d507
+2025-05-21 12:11:09 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d75609b7201d753d0d507
+2025-05-21 12:11:11 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d75609b7201d753d0d507
+2025-05-21 12:11:13 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d75609b7201d753d0d507
+2025-05-21 12:11:15 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d75609b7201d753d0d507
+2025-05-21 12:11:17 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d75609b7201d753d0d507
+2025-05-21 12:11:19 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d75609b7201d753d0d507
+2025-05-21 12:11:21 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d75609b7201d753d0d507
+2025-05-21 12:11:22 | DEBUG    | src.api.linkedin_api:run_automation:34 - Payload sent to TexAU /run: {
+  "name": "Pipeline Author Profile Extraction",
+  "description": "Pipeline: Extract author profile",
+  "automationId": "63f48ee97022e05c116fc798",
+  "connectedAccountId": "67ffa43877d8e1e658850bc3",
+  "timezone": "Asia/Kolkata",
+  "inputs": {
+    "liProfileUrl": "https://www.linkedin.com/in/palak-kanjaria-65a028143?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAACK1i6YB6x2LfIZkQKMo_9NJv3cKIlxHUow"
+  }
+}
+2025-05-21 12:11:22 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/run
+2025-05-21 12:11:23 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d75929b7201d753d0e553
+2025-05-21 12:11:24 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d75929b7201d753d0e553
+2025-05-21 12:11:26 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d75929b7201d753d0e553
+2025-05-21 12:11:28 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d75929b7201d753d0e553
+2025-05-21 12:11:30 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d75929b7201d753d0e553
+2025-05-21 12:11:32 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d75929b7201d753d0e553
+2025-05-21 12:11:34 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d75929b7201d753d0e553
+2025-05-21 12:11:36 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d75929b7201d753d0e553
+2025-05-21 12:11:38 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d75929b7201d753d0e553
+2025-05-21 12:11:39 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d75929b7201d753d0e553
+2025-05-21 12:11:41 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d75929b7201d753d0e553
+2025-05-21 12:11:43 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d75929b7201d753d0e553
+2025-05-21 12:11:45 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d75929b7201d753d0e553
+2025-05-21 12:11:47 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d75929b7201d753d0e553
+2025-05-21 12:11:49 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d75929b7201d753d0e553
+2025-05-21 12:11:51 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d75929b7201d753d0e553
+2025-05-21 12:11:52 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d75929b7201d753d0e553
+2025-05-21 12:11:54 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d75929b7201d753d0e553
+2025-05-21 12:11:56 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d75929b7201d753d0e553
+2025-05-21 12:11:58 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d75929b7201d753d0e553
+2025-05-21 12:12:00 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d75929b7201d753d0e553
+2025-05-21 12:12:02 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d75929b7201d753d0e553
+2025-05-21 12:12:04 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d75929b7201d753d0e553
+2025-05-21 12:12:06 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d75929b7201d753d0e553
+2025-05-21 12:12:08 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d75929b7201d753d0e553
+2025-05-21 12:12:10 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d75929b7201d753d0e553
+2025-05-21 12:12:12 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d75929b7201d753d0e553
+2025-05-21 12:12:13 | DEBUG    | src.api.linkedin_api:run_automation:34 - Payload sent to TexAU /run: {
+  "name": "Pipeline Author Profile Extraction",
+  "description": "Pipeline: Extract author profile",
+  "automationId": "63f48ee97022e05c116fc798",
+  "connectedAccountId": "67ffa43877d8e1e658850bc3",
+  "timezone": "Asia/Kolkata",
+  "inputs": {
+    "liProfileUrl": "https://www.linkedin.com/in/imdurgeshsingh?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAABg6wHMBQ5mSZqk7kumy6rOERnN5Ztb1Abc"
+  }
+}
+2025-05-21 12:12:13 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/run
+2025-05-21 12:12:14 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d75c69b7201d753d0f87a
+2025-05-21 12:12:16 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d75c69b7201d753d0f87a
+2025-05-21 12:12:17 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d75c69b7201d753d0f87a
+2025-05-21 12:12:19 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d75c69b7201d753d0f87a
+2025-05-21 12:12:21 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d75c69b7201d753d0f87a
+2025-05-21 12:12:23 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d75c69b7201d753d0f87a
+2025-05-21 12:12:25 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d75c69b7201d753d0f87a
+2025-05-21 12:12:27 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d75c69b7201d753d0f87a
+2025-05-21 12:12:29 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d75c69b7201d753d0f87a
+2025-05-21 12:12:31 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d75c69b7201d753d0f87a
+2025-05-21 12:12:33 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d75c69b7201d753d0f87a
+2025-05-21 12:12:35 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d75c69b7201d753d0f87a
+2025-05-21 12:12:37 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d75c69b7201d753d0f87a
+2025-05-21 12:12:39 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d75c69b7201d753d0f87a
+2025-05-21 12:12:41 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d75c69b7201d753d0f87a
+2025-05-21 12:12:43 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d75c69b7201d753d0f87a
+2025-05-21 12:12:45 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d75c69b7201d753d0f87a
+2025-05-21 12:12:47 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d75c69b7201d753d0f87a
+2025-05-21 12:12:48 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d75c69b7201d753d0f87a
+2025-05-21 12:12:50 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d75c69b7201d753d0f87a
+2025-05-21 12:12:52 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d75c69b7201d753d0f87a
+2025-05-21 12:12:54 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d75c69b7201d753d0f87a
+2025-05-21 12:12:56 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d75c69b7201d753d0f87a
+2025-05-21 12:12:58 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d75c69b7201d753d0f87a
+2025-05-21 12:12:59 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d75c69b7201d753d0f87a
+2025-05-21 12:13:01 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d75c69b7201d753d0f87a
+2025-05-21 12:13:03 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d75c69b7201d753d0f87a
+2025-05-21 12:13:05 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d75c69b7201d753d0f87a
+2025-05-21 12:13:06 | DEBUG    | src.api.linkedin_api:run_automation:34 - Payload sent to TexAU /run: {
+  "name": "Pipeline Author Profile Extraction",
+  "description": "Pipeline: Extract author profile",
+  "automationId": "63f48ee97022e05c116fc798",
+  "connectedAccountId": "67ffa43877d8e1e658850bc3",
+  "timezone": "Asia/Kolkata",
+  "inputs": {
+    "liProfileUrl": "https://www.linkedin.com/in/honey-sahani-959b37170?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAACi_K5UB8_Y9aiFU9Zq6S2xB-PCA9USv_HE"
+  }
+}
+2025-05-21 12:13:06 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/run
+2025-05-21 12:13:07 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d75fb9b7201d753d109ed
+2025-05-21 12:13:08 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d75fb9b7201d753d109ed
+2025-05-21 12:13:10 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d75fb9b7201d753d109ed
+2025-05-21 12:13:12 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d75fb9b7201d753d109ed
+2025-05-21 12:13:14 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d75fb9b7201d753d109ed
+2025-05-21 12:13:16 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d75fb9b7201d753d109ed
+2025-05-21 12:13:18 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d75fb9b7201d753d109ed
+2025-05-21 12:13:19 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d75fb9b7201d753d109ed
+2025-05-21 12:13:21 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d75fb9b7201d753d109ed
+2025-05-21 12:13:23 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d75fb9b7201d753d109ed
+2025-05-21 12:13:25 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d75fb9b7201d753d109ed
+2025-05-21 12:13:27 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d75fb9b7201d753d109ed
+2025-05-21 12:13:29 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d75fb9b7201d753d109ed
+2025-05-21 12:13:31 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d75fb9b7201d753d109ed
+2025-05-21 12:13:32 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d75fb9b7201d753d109ed
+2025-05-21 12:13:34 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d75fb9b7201d753d109ed
+2025-05-21 12:13:36 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d75fb9b7201d753d109ed
+2025-05-21 12:13:38 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d75fb9b7201d753d109ed
+2025-05-21 12:13:40 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d75fb9b7201d753d109ed
+2025-05-21 12:13:42 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d75fb9b7201d753d109ed
+2025-05-21 12:13:43 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d75fb9b7201d753d109ed
+2025-05-21 12:13:45 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d75fb9b7201d753d109ed
+2025-05-21 12:13:47 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d75fb9b7201d753d109ed
+2025-05-21 12:13:49 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d75fb9b7201d753d109ed
+2025-05-21 12:13:51 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d75fb9b7201d753d109ed
+2025-05-21 12:13:52 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d75fb9b7201d753d109ed
+2025-05-21 12:13:54 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d75fb9b7201d753d109ed
+2025-05-21 12:13:56 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d75fb9b7201d753d109ed
+2025-05-21 12:13:57 | DEBUG    | src.api.linkedin_api:run_automation:34 - Payload sent to TexAU /run: {
+  "name": "Pipeline Author Profile Extraction",
+  "description": "Pipeline: Extract author profile",
+  "automationId": "63f48ee97022e05c116fc798",
+  "connectedAccountId": "67ffa43877d8e1e658850bc3",
+  "timezone": "Asia/Kolkata",
+  "inputs": {
+    "liProfileUrl": "https://www.linkedin.com/in/mohana-sundari-4745213b?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAhxF1gBgQzGJICcRldFe2vk0EVeUEdLdUM"
+  }
+}
+2025-05-21 12:13:57 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/run
+2025-05-21 12:13:58 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d762e9b7201d753d11aae
+2025-05-21 12:14:00 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d762e9b7201d753d11aae
+2025-05-21 12:14:02 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d762e9b7201d753d11aae
+2025-05-21 12:14:04 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d762e9b7201d753d11aae
+2025-05-21 12:14:05 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d762e9b7201d753d11aae
+2025-05-21 12:14:07 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d762e9b7201d753d11aae
+2025-05-21 12:14:09 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d762e9b7201d753d11aae
+2025-05-21 12:14:11 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d762e9b7201d753d11aae
+2025-05-21 12:14:13 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d762e9b7201d753d11aae
+2025-05-21 12:14:15 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d762e9b7201d753d11aae
+2025-05-21 12:14:17 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d762e9b7201d753d11aae
+2025-05-21 12:14:19 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d762e9b7201d753d11aae
+2025-05-21 12:14:21 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d762e9b7201d753d11aae
+2025-05-21 12:14:23 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d762e9b7201d753d11aae
+2025-05-21 12:14:25 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d762e9b7201d753d11aae
+2025-05-21 12:14:27 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d762e9b7201d753d11aae
+2025-05-21 12:14:28 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d762e9b7201d753d11aae
+2025-05-21 12:14:30 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d762e9b7201d753d11aae
+2025-05-21 12:14:32 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d762e9b7201d753d11aae
+2025-05-21 12:14:34 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d762e9b7201d753d11aae
+2025-05-21 12:14:36 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d762e9b7201d753d11aae
+2025-05-21 12:14:38 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d762e9b7201d753d11aae
+2025-05-21 12:14:40 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d762e9b7201d753d11aae
+2025-05-21 12:14:42 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d762e9b7201d753d11aae
+2025-05-21 12:14:45 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d762e9b7201d753d11aae
+2025-05-21 12:14:48 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d762e9b7201d753d11aae
+2025-05-21 12:14:48 | DEBUG    | src.api.linkedin_api:run_automation:34 - Payload sent to TexAU /run: {
+  "name": "Pipeline Author Profile Extraction",
+  "description": "Pipeline: Extract author profile",
+  "automationId": "63f48ee97022e05c116fc798",
+  "connectedAccountId": "67ffa43877d8e1e658850bc3",
+  "timezone": "Asia/Kolkata",
+  "inputs": {
+    "liProfileUrl": "https://www.linkedin.com/in/mahesh-narayan-responsible-ai?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAACkdE8Bp1L3oG_WrkaSl9aZBIVaX6fRC_k"
+  }
+}
+2025-05-21 12:14:48 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/run
+2025-05-21 12:14:49 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d76619b7201d753d12ca0
+2025-05-21 12:14:51 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d76619b7201d753d12ca0
+2025-05-21 12:14:53 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d76619b7201d753d12ca0
+2025-05-21 12:14:55 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d76619b7201d753d12ca0
+2025-05-21 12:14:57 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d76619b7201d753d12ca0
+2025-05-21 12:14:59 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d76619b7201d753d12ca0
+2025-05-21 12:15:01 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d76619b7201d753d12ca0
+2025-05-21 12:15:03 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d76619b7201d753d12ca0
+2025-05-21 12:15:05 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d76619b7201d753d12ca0
+2025-05-21 12:15:07 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d76619b7201d753d12ca0
+2025-05-21 12:15:09 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d76619b7201d753d12ca0
+2025-05-21 12:15:11 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d76619b7201d753d12ca0
+2025-05-21 12:15:13 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d76619b7201d753d12ca0
+2025-05-21 12:15:14 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d76619b7201d753d12ca0
+2025-05-21 12:15:16 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d76619b7201d753d12ca0
+2025-05-21 12:15:18 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d76619b7201d753d12ca0
+2025-05-21 12:15:20 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d76619b7201d753d12ca0
+2025-05-21 12:15:22 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d76619b7201d753d12ca0
+2025-05-21 12:15:24 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d76619b7201d753d12ca0
+2025-05-21 12:15:25 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d76619b7201d753d12ca0
+2025-05-21 12:15:27 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d76619b7201d753d12ca0
+2025-05-21 12:15:29 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d76619b7201d753d12ca0
+2025-05-21 12:15:31 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d76619b7201d753d12ca0
+2025-05-21 12:15:32 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d76619b7201d753d12ca0
+2025-05-21 12:15:34 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d76619b7201d753d12ca0
+2025-05-21 12:15:36 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d76619b7201d753d12ca0
+2025-05-21 12:15:38 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d76619b7201d753d12ca0
+2025-05-21 12:15:40 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d76619b7201d753d12ca0
+2025-05-21 12:15:41 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d76619b7201d753d12ca0
+2025-05-21 12:15:42 | DEBUG    | src.api.linkedin_api:run_automation:34 - Payload sent to TexAU /run: {
+  "name": "Pipeline Author Profile Extraction",
+  "description": "Pipeline: Extract author profile",
+  "automationId": "63f48ee97022e05c116fc798",
+  "connectedAccountId": "67ffa43877d8e1e658850bc3",
+  "timezone": "Asia/Kolkata",
+  "inputs": {
+    "liProfileUrl": "https://www.linkedin.com/in/viraj-parab-9b774883?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAABG6w5sBKm5poU7jAraA-vTV5ZyAKuf5I1k"
+  }
+}
+2025-05-21 12:15:42 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/run
+2025-05-21 12:15:43 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d76979b7201d753d13e3c
+2025-05-21 12:15:45 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d76979b7201d753d13e3c
+2025-05-21 12:15:47 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d76979b7201d753d13e3c
+2025-05-21 12:15:49 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d76979b7201d753d13e3c
+2025-05-21 12:15:51 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d76979b7201d753d13e3c
+2025-05-21 12:15:53 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d76979b7201d753d13e3c
+2025-05-21 12:15:55 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d76979b7201d753d13e3c
+2025-05-21 12:15:56 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d76979b7201d753d13e3c
+2025-05-21 12:15:58 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d76979b7201d753d13e3c
+2025-05-21 12:16:00 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d76979b7201d753d13e3c
+2025-05-21 12:16:02 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d76979b7201d753d13e3c
+2025-05-21 12:16:04 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d76979b7201d753d13e3c
+2025-05-21 12:16:06 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d76979b7201d753d13e3c
+2025-05-21 12:16:08 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d76979b7201d753d13e3c
+2025-05-21 12:16:10 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d76979b7201d753d13e3c
+2025-05-21 12:16:12 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d76979b7201d753d13e3c
+2025-05-21 12:16:14 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d76979b7201d753d13e3c
+2025-05-21 12:16:15 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d76979b7201d753d13e3c
+2025-05-21 12:16:17 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d76979b7201d753d13e3c
+2025-05-21 12:16:19 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d76979b7201d753d13e3c
+2025-05-21 12:16:21 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d76979b7201d753d13e3c
+2025-05-21 12:16:23 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d76979b7201d753d13e3c
+2025-05-21 12:16:25 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d76979b7201d753d13e3c
+2025-05-21 12:16:27 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d76979b7201d753d13e3c
+2025-05-21 12:16:29 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d76979b7201d753d13e3c
+2025-05-21 12:16:31 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d76979b7201d753d13e3c
+2025-05-21 12:16:33 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d76979b7201d753d13e3c
+2025-05-21 12:16:35 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d76979b7201d753d13e3c
+2025-05-21 12:16:36 | DEBUG    | src.api.linkedin_api:run_automation:34 - Payload sent to TexAU /run: {
+  "name": "Pipeline Author Profile Extraction",
+  "description": "Pipeline: Extract author profile",
+  "automationId": "63f48ee97022e05c116fc798",
+  "connectedAccountId": "67ffa43877d8e1e658850bc3",
+  "timezone": "Asia/Kolkata",
+  "inputs": {
+    "liProfileUrl": "https://www.linkedin.com/in/dan-priest-2663707?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAFMjG4BciWjP--hOC-I3XlJEFqS66upvfM"
+  }
+}
+2025-05-21 12:16:36 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/run
+2025-05-21 12:16:37 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d76cc9b7201d753d150e8
+2025-05-21 12:16:38 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d76cc9b7201d753d150e8
+2025-05-21 12:16:40 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d76cc9b7201d753d150e8
+2025-05-21 12:16:42 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d76cc9b7201d753d150e8
+2025-05-21 12:16:44 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d76cc9b7201d753d150e8
+2025-05-21 12:16:46 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d76cc9b7201d753d150e8
+2025-05-21 12:16:48 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d76cc9b7201d753d150e8
+2025-05-21 12:16:50 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d76cc9b7201d753d150e8
+2025-05-21 12:16:52 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d76cc9b7201d753d150e8
+2025-05-21 12:16:54 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d76cc9b7201d753d150e8
+2025-05-21 12:16:56 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d76cc9b7201d753d150e8
+2025-05-21 12:16:57 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d76cc9b7201d753d150e8
+2025-05-21 12:16:59 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d76cc9b7201d753d150e8
+2025-05-21 12:17:01 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d76cc9b7201d753d150e8
+2025-05-21 12:17:03 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d76cc9b7201d753d150e8
+2025-05-21 12:17:05 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d76cc9b7201d753d150e8
+2025-05-21 12:17:07 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d76cc9b7201d753d150e8
+2025-05-21 12:17:08 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d76cc9b7201d753d150e8
+2025-05-21 12:17:10 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d76cc9b7201d753d150e8
+2025-05-21 12:17:12 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d76cc9b7201d753d150e8
+2025-05-21 12:17:14 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d76cc9b7201d753d150e8
+2025-05-21 12:17:16 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d76cc9b7201d753d150e8
+2025-05-21 12:17:18 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d76cc9b7201d753d150e8
+2025-05-21 12:17:20 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d76cc9b7201d753d150e8
+2025-05-21 12:17:22 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d76cc9b7201d753d150e8
+2025-05-21 12:17:23 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d76cc9b7201d753d150e8
+2025-05-21 12:17:25 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d76cc9b7201d753d150e8
+2025-05-21 12:17:27 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d76cc9b7201d753d150e8
+2025-05-21 12:17:29 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d76cc9b7201d753d150e8
+2025-05-21 12:17:31 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d76cc9b7201d753d150e8
+2025-05-21 12:17:33 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d76cc9b7201d753d150e8
+2025-05-21 12:17:34 | DEBUG    | src.api.linkedin_api:run_automation:34 - Payload sent to TexAU /run: {
+  "name": "Pipeline Author Profile Extraction",
+  "description": "Pipeline: Extract author profile",
+  "automationId": "63f48ee97022e05c116fc798",
+  "connectedAccountId": "67ffa43877d8e1e658850bc3",
+  "timezone": "Asia/Kolkata",
+  "inputs": {
+    "liProfileUrl": "https://www.linkedin.com/in/sanskriti-v-44983b307?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAE5Bj7kBJDqtg0EtfgVWey6k2hlASqvcMr4"
+  }
+}
+2025-05-21 12:17:34 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/run
+2025-05-21 12:17:35 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d77069b7201d753d16158
+2025-05-21 12:17:36 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d77069b7201d753d16158
+2025-05-21 12:17:38 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d77069b7201d753d16158
+2025-05-21 12:17:40 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d77069b7201d753d16158
+2025-05-21 12:17:42 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d77069b7201d753d16158
+2025-05-21 12:17:44 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d77069b7201d753d16158
+2025-05-21 12:17:46 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d77069b7201d753d16158
+2025-05-21 12:17:48 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d77069b7201d753d16158
+2025-05-21 12:17:50 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d77069b7201d753d16158
+2025-05-21 12:17:51 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d77069b7201d753d16158
+2025-05-21 12:17:53 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d77069b7201d753d16158
+2025-05-21 12:17:55 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d77069b7201d753d16158
+2025-05-21 12:17:57 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d77069b7201d753d16158
+2025-05-21 12:17:59 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d77069b7201d753d16158
+2025-05-21 12:18:01 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d77069b7201d753d16158
+2025-05-21 12:18:03 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d77069b7201d753d16158
+2025-05-21 12:18:05 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d77069b7201d753d16158
+2025-05-21 12:18:06 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d77069b7201d753d16158
+2025-05-21 12:18:08 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d77069b7201d753d16158
+2025-05-21 12:18:10 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d77069b7201d753d16158
+2025-05-21 12:18:12 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d77069b7201d753d16158
+2025-05-21 12:18:14 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d77069b7201d753d16158
+2025-05-21 12:18:16 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d77069b7201d753d16158
+2025-05-21 12:18:17 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d77069b7201d753d16158
+2025-05-21 12:18:19 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d77069b7201d753d16158
+2025-05-21 12:18:21 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d77069b7201d753d16158
+2025-05-21 12:18:23 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d77069b7201d753d16158
+2025-05-21 12:18:25 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d77069b7201d753d16158
+2025-05-21 12:18:27 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d77069b7201d753d16158
+2025-05-21 12:18:29 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d77069b7201d753d16158
+2025-05-21 12:18:30 | DEBUG    | src.api.linkedin_api:run_automation:34 - Payload sent to TexAU /run: {
+  "name": "Pipeline Author Profile Extraction",
+  "description": "Pipeline: Extract author profile",
+  "automationId": "63f48ee97022e05c116fc798",
+  "connectedAccountId": "67ffa43877d8e1e658850bc3",
+  "timezone": "Asia/Kolkata",
+  "inputs": {
+    "liProfileUrl": "https://www.linkedin.com/in/afzal-javad-ba22351b0?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAADEn82oBInFjg2wVjGqWLJ_03OOyo7HmbfY"
+  }
+}
+2025-05-21 12:18:30 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/run
+2025-05-21 12:18:31 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d773e9b7201d753d16d28
+2025-05-21 12:18:32 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d773e9b7201d753d16d28
+2025-05-21 12:18:34 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d773e9b7201d753d16d28
+2025-05-21 12:18:36 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d773e9b7201d753d16d28
+2025-05-21 12:18:38 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d773e9b7201d753d16d28
+2025-05-21 12:18:40 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d773e9b7201d753d16d28
+2025-05-21 12:18:42 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d773e9b7201d753d16d28
+2025-05-21 12:18:44 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d773e9b7201d753d16d28
+2025-05-21 12:18:46 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d773e9b7201d753d16d28
+2025-05-21 12:18:48 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d773e9b7201d753d16d28
+2025-05-21 12:18:50 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d773e9b7201d753d16d28
+2025-05-21 12:18:51 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d773e9b7201d753d16d28
+2025-05-21 12:18:53 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d773e9b7201d753d16d28
+2025-05-21 12:18:55 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d773e9b7201d753d16d28
+2025-05-21 12:18:57 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d773e9b7201d753d16d28
+2025-05-21 12:18:59 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d773e9b7201d753d16d28
+2025-05-21 12:19:01 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d773e9b7201d753d16d28
+2025-05-21 12:19:03 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d773e9b7201d753d16d28
+2025-05-21 12:19:05 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d773e9b7201d753d16d28
+2025-05-21 12:19:07 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d773e9b7201d753d16d28
+2025-05-21 12:19:09 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d773e9b7201d753d16d28
+2025-05-21 12:19:11 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d773e9b7201d753d16d28
+2025-05-21 12:19:13 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d773e9b7201d753d16d28
+2025-05-21 12:19:15 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d773e9b7201d753d16d28
+2025-05-21 12:19:17 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d773e9b7201d753d16d28
+2025-05-21 12:19:19 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d773e9b7201d753d16d28
+2025-05-21 12:19:21 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d773e9b7201d753d16d28
+2025-05-21 12:19:22 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d773e9b7201d753d16d28
+2025-05-21 12:19:24 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d773e9b7201d753d16d28
+2025-05-21 12:19:26 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d773e9b7201d753d16d28
+2025-05-21 12:19:28 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d773e9b7201d753d16d28
+2025-05-21 12:19:30 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d773e9b7201d753d16d28
+2025-05-21 12:19:32 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d773e9b7201d753d16d28
+2025-05-21 12:19:34 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d773e9b7201d753d16d28
+2025-05-21 12:19:36 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d773e9b7201d753d16d28
+2025-05-21 12:19:38 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d773e9b7201d753d16d28
+2025-05-21 12:19:40 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d773e9b7201d753d16d28
+2025-05-21 12:19:42 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d773e9b7201d753d16d28
+2025-05-21 12:19:44 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d773e9b7201d753d16d28
+2025-05-21 12:19:45 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d773e9b7201d753d16d28
+2025-05-21 12:19:47 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d773e9b7201d753d16d28
+2025-05-21 12:19:49 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d773e9b7201d753d16d28
+2025-05-21 12:19:51 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d773e9b7201d753d16d28
+2025-05-21 12:19:53 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d773e9b7201d753d16d28
+2025-05-21 12:19:55 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d773e9b7201d753d16d28
+2025-05-21 12:19:56 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d773e9b7201d753d16d28
+2025-05-21 12:19:58 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d773e9b7201d753d16d28
+2025-05-21 12:20:00 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d773e9b7201d753d16d28
+2025-05-21 12:20:02 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d773e9b7201d753d16d28
+2025-05-21 12:20:04 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d773e9b7201d753d16d28
+2025-05-21 12:20:06 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d773e9b7201d753d16d28
+2025-05-21 12:20:08 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d773e9b7201d753d16d28
+2025-05-21 12:20:10 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d773e9b7201d753d16d28
+2025-05-21 12:20:11 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d773e9b7201d753d16d28
+2025-05-21 12:20:13 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d773e9b7201d753d16d28
+2025-05-21 12:20:15 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d773e9b7201d753d16d28
+2025-05-21 12:20:17 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d773e9b7201d753d16d28
+2025-05-21 12:20:19 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d773e9b7201d753d16d28
+2025-05-21 12:20:21 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d773e9b7201d753d16d28
+2025-05-21 12:20:23 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d773e9b7201d753d16d28
+2025-05-21 12:20:25 | DEBUG    | src.api.linkedin_api:run_automation:34 - Payload sent to TexAU /run: {
+  "name": "Pipeline Author Profile Extraction",
+  "description": "Pipeline: Extract author profile",
+  "automationId": "63f48ee97022e05c116fc798",
+  "connectedAccountId": "67ffa43877d8e1e658850bc3",
+  "timezone": "Asia/Kolkata",
+  "inputs": {
+    "liProfileUrl": "https://www.linkedin.com/in/vidhi0600?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAEqHd_ABaPzZRGSE-R3KK1lj_JPZkwb5HU0"
+  }
+}
+2025-05-21 12:20:25 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/run
+2025-05-21 12:20:25 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d77b19b7201d753d181cd
+2025-05-21 12:20:27 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d77b19b7201d753d181cd
+2025-05-21 12:20:29 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d77b19b7201d753d181cd
+2025-05-21 12:20:31 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d77b19b7201d753d181cd
+2025-05-21 12:20:33 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d77b19b7201d753d181cd
+2025-05-21 12:20:35 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d77b19b7201d753d181cd
+2025-05-21 12:20:37 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d77b19b7201d753d181cd
+2025-05-21 12:20:39 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d77b19b7201d753d181cd
+2025-05-21 12:20:41 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d77b19b7201d753d181cd
+2025-05-21 12:20:43 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d77b19b7201d753d181cd
+2025-05-21 12:20:45 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d77b19b7201d753d181cd
+2025-05-21 12:20:46 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d77b19b7201d753d181cd
+2025-05-21 12:20:48 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d77b19b7201d753d181cd
+2025-05-21 12:20:50 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d77b19b7201d753d181cd
+2025-05-21 12:20:52 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d77b19b7201d753d181cd
+2025-05-21 12:20:54 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d77b19b7201d753d181cd
+2025-05-21 12:20:56 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d77b19b7201d753d181cd
+2025-05-21 12:20:58 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d77b19b7201d753d181cd
+2025-05-21 12:21:01 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d77b19b7201d753d181cd
+2025-05-21 12:21:02 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d77b19b7201d753d181cd
+2025-05-21 12:21:04 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d77b19b7201d753d181cd
+2025-05-21 12:21:06 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d77b19b7201d753d181cd
+2025-05-21 12:21:08 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d77b19b7201d753d181cd
+2025-05-21 12:21:10 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d77b19b7201d753d181cd
+2025-05-21 12:21:12 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d77b19b7201d753d181cd
+2025-05-21 12:21:14 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d77b19b7201d753d181cd
+2025-05-21 12:21:16 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d77b19b7201d753d181cd
+2025-05-21 12:21:18 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d77b19b7201d753d181cd
+2025-05-21 12:21:19 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d77b19b7201d753d181cd
+2025-05-21 12:21:21 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d77b19b7201d753d181cd
+2025-05-21 12:21:23 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d77b19b7201d753d181cd
+2025-05-21 12:21:25 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d77b19b7201d753d181cd
+2025-05-21 12:21:27 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d77b19b7201d753d181cd
+2025-05-21 12:21:29 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d77b19b7201d753d181cd
+2025-05-21 12:21:31 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d77b19b7201d753d181cd
+2025-05-21 12:21:32 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d77b19b7201d753d181cd
+2025-05-21 12:21:34 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d77b19b7201d753d181cd
+2025-05-21 12:21:37 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d77b19b7201d753d181cd
+2025-05-21 12:21:39 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d77b19b7201d753d181cd
+2025-05-21 12:21:40 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d77b19b7201d753d181cd
+2025-05-21 12:21:42 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d77b19b7201d753d181cd
+2025-05-21 12:21:44 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d77b19b7201d753d181cd
+2025-05-21 12:21:46 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d77b19b7201d753d181cd
+2025-05-21 12:21:48 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d77b19b7201d753d181cd
+2025-05-21 12:21:50 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d77b19b7201d753d181cd
+2025-05-21 12:21:52 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d77b19b7201d753d181cd
+2025-05-21 12:21:54 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d77b19b7201d753d181cd
+2025-05-21 12:21:56 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d77b19b7201d753d181cd
+2025-05-21 12:21:58 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d77b19b7201d753d181cd
+2025-05-21 12:22:00 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d77b19b7201d753d181cd
+2025-05-21 12:22:02 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d77b19b7201d753d181cd
+2025-05-21 12:22:03 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d77b19b7201d753d181cd
+2025-05-21 12:22:05 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d77b19b7201d753d181cd
+2025-05-21 12:22:07 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d77b19b7201d753d181cd
+2025-05-21 12:22:09 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d77b19b7201d753d181cd
+2025-05-21 12:22:11 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d77b19b7201d753d181cd
+2025-05-21 12:22:13 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d77b19b7201d753d181cd
+2025-05-21 12:22:15 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d77b19b7201d753d181cd
+2025-05-21 12:22:16 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d77b19b7201d753d181cd
+2025-05-21 12:22:18 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d77b19b7201d753d181cd
+2025-05-21 12:22:20 | DEBUG    | src.api.linkedin_api:run_automation:34 - Payload sent to TexAU /run: {
+  "name": "Pipeline Author Profile Extraction",
+  "description": "Pipeline: Extract author profile",
+  "automationId": "63f48ee97022e05c116fc798",
+  "connectedAccountId": "67ffa43877d8e1e658850bc3",
+  "timezone": "Asia/Kolkata",
+  "inputs": {
+    "liProfileUrl": "https://www.linkedin.com/in/shakti-singh-36a97911b?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAB3dkcIBztGUyOd3-phaNbZNW_TlZxXowmw"
+  }
+}
+2025-05-21 12:22:20 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/run
+2025-05-21 12:22:21 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d78259b7201d753d195ac
+2025-05-21 12:22:23 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d78259b7201d753d195ac
+2025-05-21 12:22:25 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d78259b7201d753d195ac
+2025-05-21 12:22:26 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d78259b7201d753d195ac
+2025-05-21 12:22:28 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d78259b7201d753d195ac
+2025-05-21 12:22:30 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d78259b7201d753d195ac
+2025-05-21 12:22:32 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d78259b7201d753d195ac
+2025-05-21 12:22:34 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d78259b7201d753d195ac
+2025-05-21 12:22:36 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d78259b7201d753d195ac
+2025-05-21 12:22:37 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d78259b7201d753d195ac
+2025-05-21 12:22:39 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d78259b7201d753d195ac
+2025-05-21 12:22:41 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d78259b7201d753d195ac
+2025-05-21 12:22:43 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d78259b7201d753d195ac
+2025-05-21 12:22:45 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d78259b7201d753d195ac
+2025-05-21 12:22:46 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d78259b7201d753d195ac
+2025-05-21 12:22:48 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d78259b7201d753d195ac
+2025-05-21 12:22:50 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d78259b7201d753d195ac
+2025-05-21 12:22:52 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d78259b7201d753d195ac
+2025-05-21 12:22:54 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d78259b7201d753d195ac
+2025-05-21 12:22:56 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d78259b7201d753d195ac
+2025-05-21 12:22:58 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d78259b7201d753d195ac
+2025-05-21 12:22:59 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d78259b7201d753d195ac
+2025-05-21 12:23:01 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d78259b7201d753d195ac
+2025-05-21 12:23:03 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d78259b7201d753d195ac
+2025-05-21 12:23:05 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d78259b7201d753d195ac
+2025-05-21 12:23:07 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d78259b7201d753d195ac
+2025-05-21 12:23:09 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d78259b7201d753d195ac
+2025-05-21 12:23:11 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d78259b7201d753d195ac
+2025-05-21 12:23:12 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d78259b7201d753d195ac
+2025-05-21 12:23:14 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d78259b7201d753d195ac
+2025-05-21 12:23:16 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d78259b7201d753d195ac
+2025-05-21 12:23:18 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d78259b7201d753d195ac
+2025-05-21 12:23:20 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d78259b7201d753d195ac
+2025-05-21 12:23:22 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d78259b7201d753d195ac
+2025-05-21 12:23:23 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d78259b7201d753d195ac
+2025-05-21 12:23:25 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d78259b7201d753d195ac
+2025-05-21 12:23:27 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d78259b7201d753d195ac
+2025-05-21 12:23:29 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d78259b7201d753d195ac
+2025-05-21 12:23:31 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d78259b7201d753d195ac
+2025-05-21 12:23:33 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d78259b7201d753d195ac
+2025-05-21 12:23:35 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d78259b7201d753d195ac
+2025-05-21 12:23:37 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d78259b7201d753d195ac
+2025-05-21 12:23:39 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d78259b7201d753d195ac
+2025-05-21 12:23:41 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d78259b7201d753d195ac
+2025-05-21 12:23:42 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d78259b7201d753d195ac
+2025-05-21 12:23:44 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d78259b7201d753d195ac
+2025-05-21 12:23:46 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d78259b7201d753d195ac
+2025-05-21 12:23:48 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d78259b7201d753d195ac
+2025-05-21 12:23:50 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d78259b7201d753d195ac
+2025-05-21 12:23:51 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d78259b7201d753d195ac
+2025-05-21 12:23:53 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d78259b7201d753d195ac
+2025-05-21 12:23:55 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d78259b7201d753d195ac
+2025-05-21 12:23:57 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d78259b7201d753d195ac
+2025-05-21 12:23:59 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d78259b7201d753d195ac
+2025-05-21 12:24:01 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d78259b7201d753d195ac
+2025-05-21 12:24:03 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d78259b7201d753d195ac
+2025-05-21 12:24:04 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d78259b7201d753d195ac
+2025-05-21 12:24:06 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d78259b7201d753d195ac
+2025-05-21 12:24:08 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d78259b7201d753d195ac
+2025-05-21 12:24:10 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d78259b7201d753d195ac
+2025-05-21 12:24:12 | DEBUG    | src.api.linkedin_api:run_automation:34 - Payload sent to TexAU /run: {
+  "name": "Pipeline Author Profile Extraction",
+  "description": "Pipeline: Extract author profile",
+  "automationId": "63f48ee97022e05c116fc798",
+  "connectedAccountId": "67ffa43877d8e1e658850bc3",
+  "timezone": "Asia/Kolkata",
+  "inputs": {
+    "liProfileUrl": "https://www.linkedin.com/in/nancy-jaswal-b7255b199?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAC6IscYBOBi2Qi69szersJGI_CYx0cm5YGk"
+  }
+}
+2025-05-21 12:24:12 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/run
+2025-05-21 12:24:12 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d78949b7201d753d1acb4
+2025-05-21 12:24:14 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d78949b7201d753d1acb4
+2025-05-21 12:24:16 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d78949b7201d753d1acb4
+2025-05-21 12:24:18 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d78949b7201d753d1acb4
+2025-05-21 12:24:20 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d78949b7201d753d1acb4
+2025-05-21 12:24:21 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d78949b7201d753d1acb4
+2025-05-21 12:24:23 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d78949b7201d753d1acb4
+2025-05-21 12:24:25 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d78949b7201d753d1acb4
+2025-05-21 12:24:27 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d78949b7201d753d1acb4
+2025-05-21 12:24:29 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d78949b7201d753d1acb4
+2025-05-21 12:24:31 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d78949b7201d753d1acb4
+2025-05-21 12:24:33 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d78949b7201d753d1acb4
+2025-05-21 12:24:34 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d78949b7201d753d1acb4
+2025-05-21 12:24:36 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d78949b7201d753d1acb4
+2025-05-21 12:24:38 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d78949b7201d753d1acb4
+2025-05-21 12:24:40 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d78949b7201d753d1acb4
+2025-05-21 12:24:42 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d78949b7201d753d1acb4
+2025-05-21 12:24:44 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d78949b7201d753d1acb4
+2025-05-21 12:24:45 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d78949b7201d753d1acb4
+2025-05-21 12:24:47 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d78949b7201d753d1acb4
+2025-05-21 12:24:49 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d78949b7201d753d1acb4
+2025-05-21 12:24:51 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d78949b7201d753d1acb4
+2025-05-21 12:24:53 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d78949b7201d753d1acb4
+2025-05-21 12:24:54 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d78949b7201d753d1acb4
+2025-05-21 12:24:56 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d78949b7201d753d1acb4
+2025-05-21 12:24:58 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d78949b7201d753d1acb4
+2025-05-21 12:25:00 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d78949b7201d753d1acb4
+2025-05-21 12:25:02 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d78949b7201d753d1acb4
+2025-05-21 12:25:04 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d78949b7201d753d1acb4
+2025-05-21 12:25:05 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d78949b7201d753d1acb4
+2025-05-21 12:25:07 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d78949b7201d753d1acb4
+2025-05-21 12:25:09 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d78949b7201d753d1acb4
+2025-05-21 12:25:11 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d78949b7201d753d1acb4
+2025-05-21 12:25:13 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d78949b7201d753d1acb4
+2025-05-21 12:25:14 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d78949b7201d753d1acb4
+2025-05-21 12:25:16 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d78949b7201d753d1acb4
+2025-05-21 12:25:18 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d78949b7201d753d1acb4
+2025-05-21 12:25:20 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d78949b7201d753d1acb4
+2025-05-21 12:25:22 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d78949b7201d753d1acb4
+2025-05-21 12:25:23 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d78949b7201d753d1acb4
+2025-05-21 12:25:26 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d78949b7201d753d1acb4
+2025-05-21 12:25:28 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d78949b7201d753d1acb4
+2025-05-21 12:25:30 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d78949b7201d753d1acb4
+2025-05-21 12:25:32 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d78949b7201d753d1acb4
+2025-05-21 12:25:34 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d78949b7201d753d1acb4
+2025-05-21 12:25:36 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d78949b7201d753d1acb4
+2025-05-21 12:25:37 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d78949b7201d753d1acb4
+2025-05-21 12:25:39 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d78949b7201d753d1acb4
+2025-05-21 12:25:41 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d78949b7201d753d1acb4
+2025-05-21 12:25:43 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d78949b7201d753d1acb4
+2025-05-21 12:25:45 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d78949b7201d753d1acb4
+2025-05-21 12:25:46 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d78949b7201d753d1acb4
+2025-05-21 12:25:48 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d78949b7201d753d1acb4
+2025-05-21 12:25:50 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d78949b7201d753d1acb4
+2025-05-21 12:25:52 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d78949b7201d753d1acb4
+2025-05-21 12:25:54 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d78949b7201d753d1acb4
+2025-05-21 12:25:56 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d78949b7201d753d1acb4
+2025-05-21 12:25:57 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d78949b7201d753d1acb4
+2025-05-21 12:25:59 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d78949b7201d753d1acb4
+2025-05-21 12:26:01 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d78949b7201d753d1acb4
+2025-05-21 12:26:03 | DEBUG    | src.api.linkedin_api:run_automation:34 - Payload sent to TexAU /run: {
+  "name": "Pipeline Author Profile Extraction",
+  "description": "Pipeline: Extract author profile",
+  "automationId": "63f48ee97022e05c116fc798",
+  "connectedAccountId": "67ffa43877d8e1e658850bc3",
+  "timezone": "Asia/Kolkata",
+  "inputs": {
+    "liProfileUrl": "https://www.linkedin.com/in/aniruddhakalbande?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAn7UR4Byk0ZwInrEU4yM9d62AuXsrACA6g"
+  }
+}
+2025-05-21 12:26:03 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/run
+2025-05-21 12:26:04 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d79049b7201d753d1c369
+2025-05-21 12:26:06 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d79049b7201d753d1c369
+2025-05-21 12:26:07 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d79049b7201d753d1c369
+2025-05-21 12:26:09 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d79049b7201d753d1c369
+2025-05-21 12:26:11 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d79049b7201d753d1c369
+2025-05-21 12:26:13 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d79049b7201d753d1c369
+2025-05-21 12:26:15 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d79049b7201d753d1c369
+2025-05-21 12:26:16 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d79049b7201d753d1c369
+2025-05-21 12:26:18 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d79049b7201d753d1c369
+2025-05-21 12:26:20 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d79049b7201d753d1c369
+2025-05-21 12:26:22 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d79049b7201d753d1c369
+2025-05-21 12:26:25 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d79049b7201d753d1c369
+2025-05-21 12:26:27 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d79049b7201d753d1c369
+2025-05-21 12:26:29 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d79049b7201d753d1c369
+2025-05-21 12:26:31 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d79049b7201d753d1c369
+2025-05-21 12:26:32 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d79049b7201d753d1c369
+2025-05-21 12:26:34 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d79049b7201d753d1c369
+2025-05-21 12:26:36 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d79049b7201d753d1c369
+2025-05-21 12:26:38 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d79049b7201d753d1c369
+2025-05-21 12:26:40 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d79049b7201d753d1c369
+2025-05-21 12:26:42 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d79049b7201d753d1c369
+2025-05-21 12:26:44 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d79049b7201d753d1c369
+2025-05-21 12:26:45 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d79049b7201d753d1c369
+2025-05-21 12:26:47 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d79049b7201d753d1c369
+2025-05-21 12:26:49 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d79049b7201d753d1c369
+2025-05-21 12:26:51 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d79049b7201d753d1c369
+2025-05-21 12:26:53 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d79049b7201d753d1c369
+2025-05-21 12:26:54 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d79049b7201d753d1c369
+2025-05-21 12:26:56 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d79049b7201d753d1c369
+2025-05-21 12:26:58 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d79049b7201d753d1c369
+2025-05-21 12:27:00 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d79049b7201d753d1c369
+2025-05-21 12:27:02 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d79049b7201d753d1c369
+2025-05-21 12:27:04 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d79049b7201d753d1c369
+2025-05-21 12:27:06 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d79049b7201d753d1c369
+2025-05-21 12:27:07 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d79049b7201d753d1c369
+2025-05-21 12:27:09 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d79049b7201d753d1c369
+2025-05-21 12:27:11 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d79049b7201d753d1c369
+2025-05-21 12:27:13 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d79049b7201d753d1c369
+2025-05-21 12:27:15 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d79049b7201d753d1c369
+2025-05-21 12:27:16 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d79049b7201d753d1c369
+2025-05-21 12:27:18 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d79049b7201d753d1c369
+2025-05-21 12:27:20 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d79049b7201d753d1c369
+2025-05-21 12:27:22 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d79049b7201d753d1c369
+2025-05-21 12:27:24 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d79049b7201d753d1c369
+2025-05-21 12:27:26 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d79049b7201d753d1c369
+2025-05-21 12:27:27 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d79049b7201d753d1c369
+2025-05-21 12:27:29 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d79049b7201d753d1c369
+2025-05-21 12:27:32 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d79049b7201d753d1c369
+2025-05-21 12:27:34 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d79049b7201d753d1c369
+2025-05-21 12:27:36 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d79049b7201d753d1c369
+2025-05-21 12:27:37 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d79049b7201d753d1c369
+2025-05-21 12:27:39 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d79049b7201d753d1c369
+2025-05-21 12:27:41 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d79049b7201d753d1c369
+2025-05-21 12:27:43 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d79049b7201d753d1c369
+2025-05-21 12:27:45 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d79049b7201d753d1c369
+2025-05-21 12:27:46 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d79049b7201d753d1c369
+2025-05-21 12:27:48 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d79049b7201d753d1c369
+2025-05-21 12:27:50 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d79049b7201d753d1c369
+2025-05-21 12:27:52 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d79049b7201d753d1c369
+2025-05-21 12:27:54 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/682d79049b7201d753d1c369
