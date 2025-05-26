@@ -649,3 +649,620 @@
 2025-05-25 14:17:51 | DEBUG    | src.api.texau_client:__init__:31 - TexAU client initialized with complete authentication
 2025-05-25 14:17:51 | DEBUG    | src.api.linkedin_api:__init__:11 - LinkedIn API client initialized
 2025-05-25 14:17:51 | DEBUG    | __main__:__init__:18 - Initializing LinkedIn Extractor App
+2025-05-25 15:46:22 | INFO     | src.config:load_config:14 - Loading environment variables
+2025-05-25 15:46:22 | DEBUG    | src.api.texau_client:__init__:31 - TexAU client initialized with complete authentication
+2025-05-25 15:46:22 | DEBUG    | src.api.linkedin_api:__init__:11 - LinkedIn API client initialized
+2025-05-25 15:46:22 | DEBUG    | __main__:__init__:18 - Initializing LinkedIn Extractor App
+2025-05-25 15:46:27 | INFO     | src.config:load_config:14 - Loading environment variables
+2025-05-25 15:46:27 | DEBUG    | src.api.texau_client:__init__:31 - TexAU client initialized with complete authentication
+2025-05-25 15:46:27 | DEBUG    | src.api.linkedin_api:__init__:11 - LinkedIn API client initialized
+2025-05-25 15:46:27 | DEBUG    | __main__:__init__:18 - Initializing LinkedIn Extractor App
+2025-05-25 15:46:28 | INFO     | src.config:load_config:14 - Loading environment variables
+2025-05-25 15:46:28 | DEBUG    | src.api.texau_client:__init__:31 - TexAU client initialized with complete authentication
+2025-05-25 15:46:28 | DEBUG    | src.api.linkedin_api:__init__:11 - LinkedIn API client initialized
+2025-05-25 15:46:28 | DEBUG    | __main__:__init__:18 - Initializing LinkedIn Extractor App
+2025-05-25 15:47:14 | INFO     | src.config:load_config:14 - Loading environment variables
+2025-05-25 15:47:14 | DEBUG    | src.api.texau_client:__init__:31 - TexAU client initialized with complete authentication
+2025-05-25 15:47:14 | DEBUG    | src.api.linkedin_api:__init__:11 - LinkedIn API client initialized
+2025-05-25 15:47:14 | DEBUG    | __main__:__init__:18 - Initializing LinkedIn Extractor App
+2025-05-25 15:47:23 | INFO     | src.config:load_config:14 - Loading environment variables
+2025-05-25 15:47:23 | DEBUG    | src.api.texau_client:__init__:31 - TexAU client initialized with complete authentication
+2025-05-25 15:47:23 | DEBUG    | src.api.linkedin_api:__init__:11 - LinkedIn API client initialized
+2025-05-25 15:47:23 | DEBUG    | __main__:__init__:18 - Initializing LinkedIn Extractor App
+2025-05-25 15:47:54 | INFO     | src.config:load_config:14 - Loading environment variables
+2025-05-25 15:47:54 | DEBUG    | src.api.texau_client:__init__:31 - TexAU client initialized with complete authentication
+2025-05-25 15:47:54 | DEBUG    | src.api.linkedin_api:__init__:11 - LinkedIn API client initialized
+2025-05-25 15:47:54 | DEBUG    | __main__:__init__:18 - Initializing LinkedIn Extractor App
+2025-05-25 15:47:54 | INFO     | src.config:load_config:14 - Loading environment variables
+2025-05-25 15:47:54 | DEBUG    | src.api.texau_client:__init__:31 - TexAU client initialized with complete authentication
+2025-05-25 15:47:54 | DEBUG    | src.api.linkedin_api:__init__:11 - LinkedIn API client initialized
+2025-05-25 15:47:54 | DEBUG    | __main__:__init__:18 - Initializing LinkedIn Extractor App
+2025-05-25 15:47:54 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/automations?platformId=622f03eb770f6bba0b8facaa
+2025-05-25 15:47:55 | DEBUG    | src.api.linkedin_api:run_automation:34 - Payload sent to TexAU /run: {
+  "name": "Pipeline Keyword Search",
+  "description": "Pipeline: Search LinkedIn posts by keywords",
+  "automationId": "64099c6e0936e46db5d76f4c",
+  "connectedAccountId": "67ffa43877d8e1e658850bc3",
+  "timezone": "Asia/Kolkata",
+  "inputs": {
+    "liPostSearchUrl": "Gcc",
+    "maxCountPostSearch": 10
+  }
+}
+2025-05-25 15:47:55 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/run
+2025-05-25 15:47:56 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/6832ee55e7bb1f6b5adf89bd
+2025-05-25 15:47:58 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/6832ee55e7bb1f6b5adf89bd
+2025-05-25 15:48:00 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/6832ee55e7bb1f6b5adf89bd
+2025-05-25 15:48:02 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/6832ee55e7bb1f6b5adf89bd
+2025-05-25 15:48:04 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/6832ee55e7bb1f6b5adf89bd
+2025-05-25 15:48:05 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/6832ee55e7bb1f6b5adf89bd
+2025-05-25 15:48:08 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/6832ee55e7bb1f6b5adf89bd
+2025-05-25 15:48:09 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/6832ee55e7bb1f6b5adf89bd
+2025-05-25 15:48:11 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/6832ee55e7bb1f6b5adf89bd
+2025-05-25 15:48:13 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/6832ee55e7bb1f6b5adf89bd
+2025-05-25 15:48:15 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/6832ee55e7bb1f6b5adf89bd
+2025-05-25 15:48:18 | DEBUG    | src.api.linkedin_api:run_automation:34 - Payload sent to TexAU /run: {
+  "name": "Pipeline Author Profile Extraction",
+  "description": "Pipeline: Extract author profile",
+  "automationId": "63f48ee97022e05c116fc798",
+  "connectedAccountId": "67ffa43877d8e1e658850bc3",
+  "timezone": "Asia/Kolkata",
+  "inputs": {
+    "liProfileUrl": "https://www.linkedin.com/in/syed-gouse-mohiuddin-49ba0464?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAA2s1bcBffqapuG5LQ4GYVzwrhdSm7k-Cuo"
+  }
+}
+2025-05-25 15:48:18 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/run
+2025-05-25 15:48:19 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/6832ee6be7bb1f6b5adf8da3
+2025-05-25 15:48:21 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/6832ee6be7bb1f6b5adf8da3
+2025-05-25 15:48:23 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/6832ee6be7bb1f6b5adf8da3
+2025-05-25 15:48:25 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/6832ee6be7bb1f6b5adf8da3
+2025-05-25 15:48:26 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/6832ee6be7bb1f6b5adf8da3
+2025-05-25 15:48:28 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/6832ee6be7bb1f6b5adf8da3
+2025-05-25 15:48:30 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/6832ee6be7bb1f6b5adf8da3
+2025-05-25 15:48:32 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/6832ee6be7bb1f6b5adf8da3
+2025-05-25 15:48:34 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/6832ee6be7bb1f6b5adf8da3
+2025-05-25 15:48:36 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/6832ee6be7bb1f6b5adf8da3
+2025-05-25 15:48:38 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/6832ee6be7bb1f6b5adf8da3
+2025-05-25 15:48:40 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/6832ee6be7bb1f6b5adf8da3
+2025-05-25 15:48:42 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/6832ee6be7bb1f6b5adf8da3
+2025-05-25 15:48:44 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/6832ee6be7bb1f6b5adf8da3
+2025-05-25 15:48:47 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/6832ee6be7bb1f6b5adf8da3
+2025-05-25 15:48:49 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/6832ee6be7bb1f6b5adf8da3
+2025-05-25 15:48:51 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/6832ee6be7bb1f6b5adf8da3
+2025-05-25 15:48:53 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/6832ee6be7bb1f6b5adf8da3
+2025-05-25 15:48:54 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/6832ee6be7bb1f6b5adf8da3
+2025-05-25 15:48:56 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/6832ee6be7bb1f6b5adf8da3
+2025-05-25 15:48:58 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/6832ee6be7bb1f6b5adf8da3
+2025-05-25 15:49:00 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/6832ee6be7bb1f6b5adf8da3
+2025-05-25 15:49:02 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/6832ee6be7bb1f6b5adf8da3
+2025-05-25 15:49:04 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/6832ee6be7bb1f6b5adf8da3
+2025-05-25 15:49:06 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/6832ee6be7bb1f6b5adf8da3
+2025-05-25 15:49:08 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/6832ee6be7bb1f6b5adf8da3
+2025-05-25 15:49:10 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/6832ee6be7bb1f6b5adf8da3
+2025-05-25 15:49:11 | DEBUG    | src.api.linkedin_api:run_automation:34 - Payload sent to TexAU /run: {
+  "name": "Pipeline Author Profile Extraction",
+  "description": "Pipeline: Extract author profile",
+  "automationId": "63f48ee97022e05c116fc798",
+  "connectedAccountId": "67ffa43877d8e1e658850bc3",
+  "timezone": "Asia/Kolkata",
+  "inputs": {
+    "liProfileUrl": "https://www.linkedin.com/in/jigarjobanputra?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAAOU_kBQcB2h6eqI2TgwMuXmNRSiIIGY9c"
+  }
+}
+2025-05-25 15:49:11 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/run
+2025-05-25 15:49:11 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/6832eea0e7bb1f6b5adf9685
+2025-05-25 15:49:13 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/6832eea0e7bb1f6b5adf9685
+2025-05-25 15:49:15 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/6832eea0e7bb1f6b5adf9685
+2025-05-25 15:49:17 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/6832eea0e7bb1f6b5adf9685
+2025-05-25 15:49:19 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/6832eea0e7bb1f6b5adf9685
+2025-05-25 15:49:21 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/6832eea0e7bb1f6b5adf9685
+2025-05-25 15:49:23 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/6832eea0e7bb1f6b5adf9685
+2025-05-25 15:49:25 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/6832eea0e7bb1f6b5adf9685
+2025-05-25 15:49:27 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/6832eea0e7bb1f6b5adf9685
+2025-05-25 15:49:29 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/6832eea0e7bb1f6b5adf9685
+2025-05-25 15:49:30 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/6832eea0e7bb1f6b5adf9685
+2025-05-25 15:49:32 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/6832eea0e7bb1f6b5adf9685
+2025-05-25 15:49:34 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/6832eea0e7bb1f6b5adf9685
+2025-05-25 15:49:36 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/6832eea0e7bb1f6b5adf9685
+2025-05-25 15:49:38 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/6832eea0e7bb1f6b5adf9685
+2025-05-25 15:49:40 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/6832eea0e7bb1f6b5adf9685
+2025-05-25 15:49:42 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/6832eea0e7bb1f6b5adf9685
+2025-05-25 15:49:44 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/6832eea0e7bb1f6b5adf9685
+2025-05-25 15:49:46 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/6832eea0e7bb1f6b5adf9685
+2025-05-25 15:49:48 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/6832eea0e7bb1f6b5adf9685
+2025-05-25 15:49:50 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/6832eea0e7bb1f6b5adf9685
+2025-05-25 15:49:52 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/6832eea0e7bb1f6b5adf9685
+2025-05-25 15:49:54 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/6832eea0e7bb1f6b5adf9685
+2025-05-25 15:49:55 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/6832eea0e7bb1f6b5adf9685
+2025-05-25 15:49:57 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/6832eea0e7bb1f6b5adf9685
+2025-05-25 15:49:59 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/6832eea0e7bb1f6b5adf9685
+2025-05-25 15:50:01 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/6832eea0e7bb1f6b5adf9685
+2025-05-25 15:50:03 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/6832eea0e7bb1f6b5adf9685
+2025-05-25 15:50:05 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/6832eea0e7bb1f6b5adf9685
+2025-05-25 15:50:05 | DEBUG    | src.api.linkedin_api:run_automation:34 - Payload sent to TexAU /run: {
+  "name": "Pipeline Author Profile Extraction",
+  "description": "Pipeline: Extract author profile",
+  "automationId": "63f48ee97022e05c116fc798",
+  "connectedAccountId": "67ffa43877d8e1e658850bc3",
+  "timezone": "Asia/Kolkata",
+  "inputs": {
+    "liProfileUrl": "https://www.linkedin.com/in/sanjay-dora-47616412?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAKDr5oBW8cnLZvH_4enHyZI_vzFqP60d_g"
+  }
+}
+2025-05-25 15:50:05 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/run
+2025-05-25 15:50:06 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/6832eed7e7bb1f6b5adf9e3a
+2025-05-25 15:50:08 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/6832eed7e7bb1f6b5adf9e3a
+2025-05-25 15:50:10 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/6832eed7e7bb1f6b5adf9e3a
+2025-05-25 15:50:12 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/6832eed7e7bb1f6b5adf9e3a
+2025-05-25 15:50:14 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/6832eed7e7bb1f6b5adf9e3a
+2025-05-25 15:50:16 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/6832eed7e7bb1f6b5adf9e3a
+2025-05-25 15:50:18 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/6832eed7e7bb1f6b5adf9e3a
+2025-05-25 15:50:20 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/6832eed7e7bb1f6b5adf9e3a
+2025-05-25 15:50:21 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/6832eed7e7bb1f6b5adf9e3a
+2025-05-25 15:50:23 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/6832eed7e7bb1f6b5adf9e3a
+2025-05-25 15:50:25 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/6832eed7e7bb1f6b5adf9e3a
+2025-05-25 15:50:27 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/6832eed7e7bb1f6b5adf9e3a
+2025-05-25 15:50:29 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/6832eed7e7bb1f6b5adf9e3a
+2025-05-25 15:50:31 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/6832eed7e7bb1f6b5adf9e3a
+2025-05-25 15:50:33 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/6832eed7e7bb1f6b5adf9e3a
+2025-05-25 15:50:35 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/6832eed7e7bb1f6b5adf9e3a
+2025-05-25 15:50:36 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/6832eed7e7bb1f6b5adf9e3a
+2025-05-25 15:50:38 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/6832eed7e7bb1f6b5adf9e3a
+2025-05-25 15:50:40 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/6832eed7e7bb1f6b5adf9e3a
+2025-05-25 15:50:42 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/6832eed7e7bb1f6b5adf9e3a
+2025-05-25 15:50:44 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/6832eed7e7bb1f6b5adf9e3a
+2025-05-25 15:50:46 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/6832eed7e7bb1f6b5adf9e3a
+2025-05-25 15:50:48 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/6832eed7e7bb1f6b5adf9e3a
+2025-05-25 15:50:49 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/6832eed7e7bb1f6b5adf9e3a
+2025-05-25 15:50:51 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/6832eed7e7bb1f6b5adf9e3a
+2025-05-25 15:50:53 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/6832eed7e7bb1f6b5adf9e3a
+2025-05-25 15:50:55 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/6832eed7e7bb1f6b5adf9e3a
+2025-05-25 15:50:57 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/6832eed7e7bb1f6b5adf9e3a
+2025-05-25 15:50:59 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/6832eed7e7bb1f6b5adf9e3a
+2025-05-25 15:51:00 | DEBUG    | src.api.linkedin_api:run_automation:34 - Payload sent to TexAU /run: {
+  "name": "Pipeline Author Profile Extraction",
+  "description": "Pipeline: Extract author profile",
+  "automationId": "63f48ee97022e05c116fc798",
+  "connectedAccountId": "67ffa43877d8e1e658850bc3",
+  "timezone": "Asia/Kolkata",
+  "inputs": {
+    "liProfileUrl": "https://www.linkedin.com/in/anshu-agrawal-b4383664?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAA2mQeMBSvIBm-drRwrynm7S3jTIChaOo7o"
+  }
+}
+2025-05-25 15:51:00 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/run
+2025-05-25 15:51:01 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/6832ef0de7bb1f6b5adfa426
+2025-05-25 15:51:03 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/6832ef0de7bb1f6b5adfa426
+2025-05-25 15:51:04 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/6832ef0de7bb1f6b5adfa426
+2025-05-25 15:51:06 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/6832ef0de7bb1f6b5adfa426
+2025-05-25 15:51:08 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/6832ef0de7bb1f6b5adfa426
+2025-05-25 15:51:10 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/6832ef0de7bb1f6b5adfa426
+2025-05-25 15:51:12 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/6832ef0de7bb1f6b5adfa426
+2025-05-25 15:51:14 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/6832ef0de7bb1f6b5adfa426
+2025-05-25 15:51:16 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/6832ef0de7bb1f6b5adfa426
+2025-05-25 15:51:18 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/6832ef0de7bb1f6b5adfa426
+2025-05-25 15:51:20 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/6832ef0de7bb1f6b5adfa426
+2025-05-25 15:51:22 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/6832ef0de7bb1f6b5adfa426
+2025-05-25 15:51:23 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/6832ef0de7bb1f6b5adfa426
+2025-05-25 15:51:25 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/6832ef0de7bb1f6b5adfa426
+2025-05-25 15:51:27 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/6832ef0de7bb1f6b5adfa426
+2025-05-25 15:51:30 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/6832ef0de7bb1f6b5adfa426
+2025-05-25 15:51:32 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/6832ef0de7bb1f6b5adfa426
+2025-05-25 15:51:34 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/6832ef0de7bb1f6b5adfa426
+2025-05-25 15:51:36 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/6832ef0de7bb1f6b5adfa426
+2025-05-25 15:51:38 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/6832ef0de7bb1f6b5adfa426
+2025-05-25 15:51:40 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/6832ef0de7bb1f6b5adfa426
+2025-05-25 15:51:41 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/6832ef0de7bb1f6b5adfa426
+2025-05-25 15:51:43 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/6832ef0de7bb1f6b5adfa426
+2025-05-25 15:51:45 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/6832ef0de7bb1f6b5adfa426
+2025-05-25 15:51:47 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/6832ef0de7bb1f6b5adfa426
+2025-05-25 15:51:49 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/6832ef0de7bb1f6b5adfa426
+2025-05-25 15:51:51 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/6832ef0de7bb1f6b5adfa426
+2025-05-25 15:51:53 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/6832ef0de7bb1f6b5adfa426
+2025-05-25 15:51:55 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/6832ef0de7bb1f6b5adfa426
+2025-05-25 15:51:57 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/6832ef0de7bb1f6b5adfa426
+2025-05-25 15:51:59 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/6832ef0de7bb1f6b5adfa426
+2025-05-25 15:52:00 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/6832ef0de7bb1f6b5adfa426
+2025-05-25 15:52:02 | DEBUG    | src.api.linkedin_api:run_automation:34 - Payload sent to TexAU /run: {
+  "name": "Pipeline Author Profile Extraction",
+  "description": "Pipeline: Extract author profile",
+  "automationId": "63f48ee97022e05c116fc798",
+  "connectedAccountId": "67ffa43877d8e1e658850bc3",
+  "timezone": "Asia/Kolkata",
+  "inputs": {
+    "liProfileUrl": "https://www.linkedin.com/in/gssagar?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAHKBrkBz41Xm-vtP7q3MSpf9HHU-tLcsXc"
+  }
+}
+2025-05-25 15:52:02 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/run
+2025-05-25 15:52:03 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/6832ef4be7bb1f6b5adfab89
+2025-05-25 15:52:04 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/6832ef4be7bb1f6b5adfab89
+2025-05-25 15:52:06 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/6832ef4be7bb1f6b5adfab89
+2025-05-25 15:52:08 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/6832ef4be7bb1f6b5adfab89
+2025-05-25 15:52:10 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/6832ef4be7bb1f6b5adfab89
+2025-05-25 15:52:12 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/6832ef4be7bb1f6b5adfab89
+2025-05-25 15:52:14 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/6832ef4be7bb1f6b5adfab89
+2025-05-25 15:52:16 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/6832ef4be7bb1f6b5adfab89
+2025-05-25 15:52:18 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/6832ef4be7bb1f6b5adfab89
+2025-05-25 15:52:19 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/6832ef4be7bb1f6b5adfab89
+2025-05-25 15:52:21 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/6832ef4be7bb1f6b5adfab89
+2025-05-25 15:52:23 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/6832ef4be7bb1f6b5adfab89
+2025-05-25 15:52:25 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/6832ef4be7bb1f6b5adfab89
+2025-05-25 15:52:27 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/6832ef4be7bb1f6b5adfab89
+2025-05-25 15:52:29 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/6832ef4be7bb1f6b5adfab89
+2025-05-25 15:52:31 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/6832ef4be7bb1f6b5adfab89
+2025-05-25 15:52:33 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/6832ef4be7bb1f6b5adfab89
+2025-05-25 15:52:35 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/6832ef4be7bb1f6b5adfab89
+2025-05-25 15:52:37 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/6832ef4be7bb1f6b5adfab89
+2025-05-25 15:52:38 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/6832ef4be7bb1f6b5adfab89
+2025-05-25 15:52:40 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/6832ef4be7bb1f6b5adfab89
+2025-05-25 15:52:42 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/6832ef4be7bb1f6b5adfab89
+2025-05-25 15:52:44 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/6832ef4be7bb1f6b5adfab89
+2025-05-25 15:52:46 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/6832ef4be7bb1f6b5adfab89
+2025-05-25 15:52:48 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/6832ef4be7bb1f6b5adfab89
+2025-05-25 15:52:50 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/6832ef4be7bb1f6b5adfab89
+2025-05-25 15:52:52 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/6832ef4be7bb1f6b5adfab89
+2025-05-25 15:52:54 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/6832ef4be7bb1f6b5adfab89
+2025-05-25 15:52:55 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/6832ef4be7bb1f6b5adfab89
+2025-05-25 15:52:57 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/6832ef4be7bb1f6b5adfab89
+2025-05-25 15:52:59 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/6832ef4be7bb1f6b5adfab89
+2025-05-25 15:53:00 | DEBUG    | src.api.linkedin_api:run_automation:34 - Payload sent to TexAU /run: {
+  "name": "Pipeline Author Profile Extraction",
+  "description": "Pipeline: Extract author profile",
+  "automationId": "63f48ee97022e05c116fc798",
+  "connectedAccountId": "67ffa43877d8e1e658850bc3",
+  "timezone": "Asia/Kolkata",
+  "inputs": {
+    "liProfileUrl": "https://www.linkedin.com/in/agarwalsharad?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAAn7m8BRXrigXCfc5zXJEmYVdxUt3-1Iw8"
+  }
+}
+2025-05-25 15:53:00 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/run
+2025-05-25 15:53:01 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/6832ef86e7bb1f6b5adfb228
+2025-05-25 15:53:03 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/6832ef86e7bb1f6b5adfb228
+2025-05-25 15:53:05 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/6832ef86e7bb1f6b5adfb228
+2025-05-25 15:53:07 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/6832ef86e7bb1f6b5adfb228
+2025-05-25 15:53:09 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/6832ef86e7bb1f6b5adfb228
+2025-05-25 15:53:11 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/6832ef86e7bb1f6b5adfb228
+2025-05-25 15:53:13 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/6832ef86e7bb1f6b5adfb228
+2025-05-25 15:53:15 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/6832ef86e7bb1f6b5adfb228
+2025-05-25 15:53:17 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/6832ef86e7bb1f6b5adfb228
+2025-05-25 15:53:18 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/6832ef86e7bb1f6b5adfb228
+2025-05-25 15:53:20 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/6832ef86e7bb1f6b5adfb228
+2025-05-25 15:53:22 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/6832ef86e7bb1f6b5adfb228
+2025-05-25 15:53:24 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/6832ef86e7bb1f6b5adfb228
+2025-05-25 15:53:26 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/6832ef86e7bb1f6b5adfb228
+2025-05-25 15:53:28 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/6832ef86e7bb1f6b5adfb228
+2025-05-25 15:53:30 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/6832ef86e7bb1f6b5adfb228
+2025-05-25 15:53:32 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/6832ef86e7bb1f6b5adfb228
+2025-05-25 15:53:34 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/6832ef86e7bb1f6b5adfb228
+2025-05-25 15:53:35 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/6832ef86e7bb1f6b5adfb228
+2025-05-25 15:53:37 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/6832ef86e7bb1f6b5adfb228
+2025-05-25 15:53:39 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/6832ef86e7bb1f6b5adfb228
+2025-05-25 15:53:41 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/6832ef86e7bb1f6b5adfb228
+2025-05-25 15:53:43 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/6832ef86e7bb1f6b5adfb228
+2025-05-25 15:53:45 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/6832ef86e7bb1f6b5adfb228
+2025-05-25 15:53:47 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/6832ef86e7bb1f6b5adfb228
+2025-05-25 15:53:49 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/6832ef86e7bb1f6b5adfb228
+2025-05-25 15:53:50 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/6832ef86e7bb1f6b5adfb228
+2025-05-25 15:53:52 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/6832ef86e7bb1f6b5adfb228
+2025-05-25 15:53:54 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/6832ef86e7bb1f6b5adfb228
+2025-05-25 15:53:56 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/6832ef86e7bb1f6b5adfb228
+2025-05-25 15:53:58 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/6832ef86e7bb1f6b5adfb228
+2025-05-25 15:54:00 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/6832ef86e7bb1f6b5adfb228
+2025-05-25 15:54:02 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/6832ef86e7bb1f6b5adfb228
+2025-05-25 15:54:04 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/6832ef86e7bb1f6b5adfb228
+2025-05-25 15:54:06 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/6832ef86e7bb1f6b5adfb228
+2025-05-25 15:54:07 | DEBUG    | src.api.linkedin_api:run_automation:34 - Payload sent to TexAU /run: {
+  "name": "Pipeline Author Profile Extraction",
+  "description": "Pipeline: Extract author profile",
+  "automationId": "63f48ee97022e05c116fc798",
+  "connectedAccountId": "67ffa43877d8e1e658850bc3",
+  "timezone": "Asia/Kolkata",
+  "inputs": {
+    "liProfileUrl": "https://www.linkedin.com/in/soumya-ranjan-panda?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAB-rAqsBSmCpJocO1mCuyp1IyNWB3WLPTrA"
+  }
+}
+2025-05-25 15:54:07 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/run
+2025-05-25 15:54:07 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/6832efc8e7bb1f6b5adfb968
+2025-05-25 15:54:09 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/6832efc8e7bb1f6b5adfb968
+2025-05-25 15:54:11 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/6832efc8e7bb1f6b5adfb968
+2025-05-25 15:54:13 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/6832efc8e7bb1f6b5adfb968
+2025-05-25 15:54:15 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/6832efc8e7bb1f6b5adfb968
+2025-05-25 15:54:17 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/6832efc8e7bb1f6b5adfb968
+2025-05-25 15:54:19 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/6832efc8e7bb1f6b5adfb968
+2025-05-25 15:54:21 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/6832efc8e7bb1f6b5adfb968
+2025-05-25 15:54:23 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/6832efc8e7bb1f6b5adfb968
+2025-05-25 15:54:24 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/6832efc8e7bb1f6b5adfb968
+2025-05-25 15:54:26 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/6832efc8e7bb1f6b5adfb968
+2025-05-25 15:54:28 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/6832efc8e7bb1f6b5adfb968
+2025-05-25 15:54:30 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/6832efc8e7bb1f6b5adfb968
+2025-05-25 15:54:32 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/6832efc8e7bb1f6b5adfb968
+2025-05-25 15:54:34 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/6832efc8e7bb1f6b5adfb968
+2025-05-25 15:54:37 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/6832efc8e7bb1f6b5adfb968
+2025-05-25 15:54:40 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/6832efc8e7bb1f6b5adfb968
+2025-05-25 15:54:42 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/6832efc8e7bb1f6b5adfb968
+2025-05-25 15:54:44 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/6832efc8e7bb1f6b5adfb968
+2025-05-25 15:54:46 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/6832efc8e7bb1f6b5adfb968
+2025-05-25 15:54:47 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/6832efc8e7bb1f6b5adfb968
+2025-05-25 15:54:49 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/6832efc8e7bb1f6b5adfb968
+2025-05-25 15:54:51 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/6832efc8e7bb1f6b5adfb968
+2025-05-25 15:54:53 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/6832efc8e7bb1f6b5adfb968
+2025-05-25 15:54:55 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/6832efc8e7bb1f6b5adfb968
+2025-05-25 15:54:57 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/6832efc8e7bb1f6b5adfb968
+2025-05-25 15:54:59 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/6832efc8e7bb1f6b5adfb968
+2025-05-25 15:55:01 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/6832efc8e7bb1f6b5adfb968
+2025-05-25 15:55:02 | DEBUG    | src.api.linkedin_api:run_automation:34 - Payload sent to TexAU /run: {
+  "name": "Pipeline Author Profile Extraction",
+  "description": "Pipeline: Extract author profile",
+  "automationId": "63f48ee97022e05c116fc798",
+  "connectedAccountId": "67ffa43877d8e1e658850bc3",
+  "timezone": "Asia/Kolkata",
+  "inputs": {
+    "liProfileUrl": "https://www.linkedin.com/in/ramaswamynarayanan?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAALkeHgBJLsjjdLvJYpNrMjtPfGV7T3AsAM"
+  }
+}
+2025-05-25 15:55:02 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/run
+2025-05-25 15:55:02 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/6832efffe7bb1f6b5adfc100
+2025-05-25 15:55:04 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/6832efffe7bb1f6b5adfc100
+2025-05-25 15:55:06 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/6832efffe7bb1f6b5adfc100
+2025-05-25 15:55:08 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/6832efffe7bb1f6b5adfc100
+2025-05-25 15:55:10 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/6832efffe7bb1f6b5adfc100
+2025-05-25 15:55:12 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/6832efffe7bb1f6b5adfc100
+2025-05-25 15:55:14 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/6832efffe7bb1f6b5adfc100
+2025-05-25 15:55:16 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/6832efffe7bb1f6b5adfc100
+2025-05-25 15:55:18 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/6832efffe7bb1f6b5adfc100
+2025-05-25 15:55:20 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/6832efffe7bb1f6b5adfc100
+2025-05-25 15:55:22 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/6832efffe7bb1f6b5adfc100
+2025-05-25 15:55:24 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/6832efffe7bb1f6b5adfc100
+2025-05-25 15:55:25 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/6832efffe7bb1f6b5adfc100
+2025-05-25 15:55:27 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/6832efffe7bb1f6b5adfc100
+2025-05-25 15:55:29 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/6832efffe7bb1f6b5adfc100
+2025-05-25 15:55:31 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/6832efffe7bb1f6b5adfc100
+2025-05-25 15:55:33 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/6832efffe7bb1f6b5adfc100
+2025-05-25 15:55:35 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/6832efffe7bb1f6b5adfc100
+2025-05-25 15:55:36 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/6832efffe7bb1f6b5adfc100
+2025-05-25 15:55:38 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/6832efffe7bb1f6b5adfc100
+2025-05-25 15:55:40 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/6832efffe7bb1f6b5adfc100
+2025-05-25 15:55:42 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/6832efffe7bb1f6b5adfc100
+2025-05-25 15:55:44 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/6832efffe7bb1f6b5adfc100
+2025-05-25 15:55:46 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/6832efffe7bb1f6b5adfc100
+2025-05-25 15:55:48 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/6832efffe7bb1f6b5adfc100
+2025-05-25 15:55:50 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/6832efffe7bb1f6b5adfc100
+2025-05-25 15:55:52 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/6832efffe7bb1f6b5adfc100
+2025-05-25 15:55:52 | DEBUG    | src.api.linkedin_api:run_automation:34 - Payload sent to TexAU /run: {
+  "name": "Pipeline Author Profile Extraction",
+  "description": "Pipeline: Extract author profile",
+  "automationId": "63f48ee97022e05c116fc798",
+  "connectedAccountId": "67ffa43877d8e1e658850bc3",
+  "timezone": "Asia/Kolkata",
+  "inputs": {
+    "liProfileUrl": "https://www.linkedin.com/in/kotravinay?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAACwKfYBWa8TGz4m0YVvDE2tSadFGDuGf4o"
+  }
+}
+2025-05-25 15:55:52 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/run
+2025-05-25 15:55:53 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/6832f032e7bb1f6b5adfc800
+2025-05-25 15:55:55 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/6832f032e7bb1f6b5adfc800
+2025-05-25 15:55:57 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/6832f032e7bb1f6b5adfc800
+2025-05-25 15:55:59 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/6832f032e7bb1f6b5adfc800
+2025-05-25 15:56:01 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/6832f032e7bb1f6b5adfc800
+2025-05-25 15:56:03 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/6832f032e7bb1f6b5adfc800
+2025-05-25 15:56:04 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/6832f032e7bb1f6b5adfc800
+2025-05-25 15:56:07 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/6832f032e7bb1f6b5adfc800
+2025-05-25 15:56:09 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/6832f032e7bb1f6b5adfc800
+2025-05-25 15:56:10 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/6832f032e7bb1f6b5adfc800
+2025-05-25 15:56:12 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/6832f032e7bb1f6b5adfc800
+2025-05-25 15:56:14 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/6832f032e7bb1f6b5adfc800
+2025-05-25 15:56:17 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/6832f032e7bb1f6b5adfc800
+2025-05-25 15:56:19 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/6832f032e7bb1f6b5adfc800
+2025-05-25 15:56:21 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/6832f032e7bb1f6b5adfc800
+2025-05-25 15:56:23 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/6832f032e7bb1f6b5adfc800
+2025-05-25 15:56:25 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/6832f032e7bb1f6b5adfc800
+2025-05-25 15:56:27 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/6832f032e7bb1f6b5adfc800
+2025-05-25 15:56:28 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/6832f032e7bb1f6b5adfc800
+2025-05-25 15:56:30 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/6832f032e7bb1f6b5adfc800
+2025-05-25 15:56:32 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/6832f032e7bb1f6b5adfc800
+2025-05-25 15:56:34 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/6832f032e7bb1f6b5adfc800
+2025-05-25 15:56:36 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/6832f032e7bb1f6b5adfc800
+2025-05-25 15:56:38 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/6832f032e7bb1f6b5adfc800
+2025-05-25 15:56:40 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/6832f032e7bb1f6b5adfc800
+2025-05-25 15:56:42 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/6832f032e7bb1f6b5adfc800
+2025-05-25 15:56:44 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/6832f032e7bb1f6b5adfc800
+2025-05-25 15:56:46 | DEBUG    | src.api.texau_client:_make_request:51 - Making API request to endpoint: public/results/6832f032e7bb1f6b5adfc800
+2025-05-25 18:04:14 | INFO     | src.config:load_config:14 - Loading environment variables
+2025-05-25 18:04:14 | DEBUG    | src.api.texau_client:__init__:31 - TexAU client initialized with complete authentication
+2025-05-25 18:04:14 | DEBUG    | src.api.linkedin_api:__init__:11 - LinkedIn API client initialized
+2025-05-25 18:04:14 | DEBUG    | __main__:__init__:19 - Initializing LinkedIn Extractor App
+2025-05-25 18:04:25 | INFO     | src.config:load_config:14 - Loading environment variables
+2025-05-25 18:04:25 | DEBUG    | src.api.texau_client:__init__:31 - TexAU client initialized with complete authentication
+2025-05-25 18:04:25 | DEBUG    | src.api.linkedin_api:__init__:11 - LinkedIn API client initialized
+2025-05-25 18:04:25 | DEBUG    | __main__:__init__:19 - Initializing LinkedIn Extractor App
+2025-05-25 18:12:31 | INFO     | src.config:load_config:14 - Loading environment variables
+2025-05-25 18:12:31 | DEBUG    | src.api.texau_client:__init__:31 - TexAU client initialized with complete authentication
+2025-05-25 18:12:31 | DEBUG    | src.api.linkedin_api:__init__:11 - LinkedIn API client initialized
+2025-05-25 18:12:31 | DEBUG    | __main__:__init__:19 - Initializing LinkedIn Extractor App
+2025-05-25 18:13:06 | INFO     | src.config:load_config:14 - Loading environment variables
+2025-05-25 18:13:06 | DEBUG    | src.api.texau_client:__init__:31 - TexAU client initialized with complete authentication
+2025-05-25 18:13:06 | DEBUG    | src.api.linkedin_api:__init__:11 - LinkedIn API client initialized
+2025-05-25 18:13:06 | DEBUG    | __main__:__init__:19 - Initializing LinkedIn Extractor App
+2025-05-25 18:13:16 | INFO     | src.config:load_config:14 - Loading environment variables
+2025-05-25 18:13:16 | DEBUG    | src.api.texau_client:__init__:31 - TexAU client initialized with complete authentication
+2025-05-25 18:13:16 | DEBUG    | src.api.linkedin_api:__init__:11 - LinkedIn API client initialized
+2025-05-25 18:13:16 | DEBUG    | __main__:__init__:19 - Initializing LinkedIn Extractor App
+2025-05-25 18:13:17 | INFO     | src.config:load_config:14 - Loading environment variables
+2025-05-25 18:13:17 | DEBUG    | src.api.texau_client:__init__:31 - TexAU client initialized with complete authentication
+2025-05-25 18:13:17 | DEBUG    | src.api.linkedin_api:__init__:11 - LinkedIn API client initialized
+2025-05-25 18:13:17 | DEBUG    | __main__:__init__:19 - Initializing LinkedIn Extractor App
+2025-05-25 18:13:19 | INFO     | src.config:load_config:14 - Loading environment variables
+2025-05-25 18:13:19 | DEBUG    | src.api.texau_client:__init__:31 - TexAU client initialized with complete authentication
+2025-05-25 18:13:19 | DEBUG    | src.api.linkedin_api:__init__:11 - LinkedIn API client initialized
+2025-05-25 18:13:19 | DEBUG    | __main__:__init__:19 - Initializing LinkedIn Extractor App
+2025-05-25 18:13:20 | INFO     | src.config:load_config:14 - Loading environment variables
+2025-05-25 18:13:20 | DEBUG    | src.api.texau_client:__init__:31 - TexAU client initialized with complete authentication
+2025-05-25 18:13:20 | DEBUG    | src.api.linkedin_api:__init__:11 - LinkedIn API client initialized
+2025-05-25 18:13:20 | DEBUG    | __main__:__init__:19 - Initializing LinkedIn Extractor App
+2025-05-25 18:13:20 | INFO     | src.config:load_config:14 - Loading environment variables
+2025-05-25 18:13:20 | DEBUG    | src.api.texau_client:__init__:31 - TexAU client initialized with complete authentication
+2025-05-25 18:13:20 | DEBUG    | src.api.linkedin_api:__init__:11 - LinkedIn API client initialized
+2025-05-25 18:13:20 | DEBUG    | __main__:__init__:19 - Initializing LinkedIn Extractor App
+2025-05-25 18:13:22 | INFO     | src.config:load_config:14 - Loading environment variables
+2025-05-25 18:13:22 | DEBUG    | src.api.texau_client:__init__:31 - TexAU client initialized with complete authentication
+2025-05-25 18:13:22 | DEBUG    | src.api.linkedin_api:__init__:11 - LinkedIn API client initialized
+2025-05-25 18:13:22 | DEBUG    | __main__:__init__:19 - Initializing LinkedIn Extractor App
+2025-05-25 18:13:23 | INFO     | src.config:load_config:14 - Loading environment variables
+2025-05-25 18:13:23 | DEBUG    | src.api.texau_client:__init__:31 - TexAU client initialized with complete authentication
+2025-05-25 18:13:23 | DEBUG    | src.api.linkedin_api:__init__:11 - LinkedIn API client initialized
+2025-05-25 18:13:23 | DEBUG    | __main__:__init__:19 - Initializing LinkedIn Extractor App
+2025-05-25 18:13:36 | INFO     | src.config:load_config:14 - Loading environment variables
+2025-05-25 18:13:36 | DEBUG    | src.api.texau_client:__init__:31 - TexAU client initialized with complete authentication
+2025-05-25 18:13:36 | DEBUG    | src.api.linkedin_api:__init__:11 - LinkedIn API client initialized
+2025-05-25 18:13:36 | DEBUG    | __main__:__init__:19 - Initializing LinkedIn Extractor App
+2025-05-25 18:36:24 | INFO     | src.config:load_config:14 - Loading environment variables
+2025-05-25 18:36:24 | DEBUG    | src.api.texau_client:__init__:31 - TexAU client initialized with complete authentication
+2025-05-25 18:36:24 | DEBUG    | src.api.linkedin_api:__init__:11 - LinkedIn API client initialized
+2025-05-25 18:36:24 | DEBUG    | __main__:__init__:19 - Initializing LinkedIn Extractor App
+2025-05-25 18:37:03 | INFO     | src.config:load_config:14 - Loading environment variables
+2025-05-25 18:37:03 | DEBUG    | src.api.texau_client:__init__:31 - TexAU client initialized with complete authentication
+2025-05-25 18:37:03 | DEBUG    | src.api.linkedin_api:__init__:11 - LinkedIn API client initialized
+2025-05-25 18:37:03 | DEBUG    | __main__:__init__:19 - Initializing LinkedIn Extractor App
+2025-05-25 18:37:27 | INFO     | src.config:load_config:14 - Loading environment variables
+2025-05-25 18:37:27 | DEBUG    | src.api.texau_client:__init__:31 - TexAU client initialized with complete authentication
+2025-05-25 18:37:27 | DEBUG    | src.api.linkedin_api:__init__:11 - LinkedIn API client initialized
+2025-05-25 18:37:27 | DEBUG    | __main__:__init__:19 - Initializing LinkedIn Extractor App
+2025-05-25 18:37:45 | INFO     | src.config:load_config:14 - Loading environment variables
+2025-05-25 18:37:45 | DEBUG    | src.api.texau_client:__init__:31 - TexAU client initialized with complete authentication
+2025-05-25 18:37:45 | DEBUG    | src.api.linkedin_api:__init__:11 - LinkedIn API client initialized
+2025-05-25 18:37:45 | DEBUG    | __main__:__init__:19 - Initializing LinkedIn Extractor App
+2025-05-25 18:37:48 | INFO     | src.config:load_config:14 - Loading environment variables
+2025-05-25 18:37:48 | DEBUG    | src.api.texau_client:__init__:31 - TexAU client initialized with complete authentication
+2025-05-25 18:37:48 | DEBUG    | src.api.linkedin_api:__init__:11 - LinkedIn API client initialized
+2025-05-25 18:37:48 | DEBUG    | __main__:__init__:19 - Initializing LinkedIn Extractor App
+2025-05-25 18:40:05 | INFO     | src.config:load_config:14 - Loading environment variables
+2025-05-25 18:40:05 | DEBUG    | src.api.texau_client:__init__:31 - TexAU client initialized with complete authentication
+2025-05-25 18:40:05 | DEBUG    | src.api.linkedin_api:__init__:11 - LinkedIn API client initialized
+2025-05-25 18:40:05 | DEBUG    | __main__:__init__:19 - Initializing LinkedIn Extractor App
+2025-05-25 19:10:16 | INFO     | src.config:load_config:14 - Loading environment variables
+2025-05-25 19:10:16 | DEBUG    | src.api.texau_client:__init__:31 - TexAU client initialized with complete authentication
+2025-05-25 19:10:16 | DEBUG    | src.api.linkedin_api:__init__:11 - LinkedIn API client initialized
+2025-05-25 19:10:16 | DEBUG    | __main__:__init__:19 - Initializing LinkedIn Extractor App
+2025-05-25 19:10:25 | INFO     | src.config:load_config:14 - Loading environment variables
+2025-05-25 19:10:25 | DEBUG    | src.api.texau_client:__init__:31 - TexAU client initialized with complete authentication
+2025-05-25 19:10:25 | DEBUG    | src.api.linkedin_api:__init__:11 - LinkedIn API client initialized
+2025-05-25 19:10:25 | DEBUG    | __main__:__init__:19 - Initializing LinkedIn Extractor App
+2025-05-25 19:11:52 | INFO     | src.config:load_config:14 - Loading environment variables
+2025-05-25 19:11:52 | DEBUG    | src.api.texau_client:__init__:31 - TexAU client initialized with complete authentication
+2025-05-25 19:11:52 | DEBUG    | src.api.linkedin_api:__init__:11 - LinkedIn API client initialized
+2025-05-25 19:11:52 | DEBUG    | __main__:__init__:19 - Initializing LinkedIn Extractor App
+2025-05-25 19:15:51 | INFO     | src.config:load_config:14 - Loading environment variables
+2025-05-25 19:15:51 | DEBUG    | src.api.texau_client:__init__:31 - TexAU client initialized with complete authentication
+2025-05-25 19:15:51 | DEBUG    | src.api.linkedin_api:__init__:11 - LinkedIn API client initialized
+2025-05-25 19:15:51 | DEBUG    | __main__:__init__:19 - Initializing LinkedIn Extractor App
+2025-05-25 19:16:09 | INFO     | src.config:load_config:14 - Loading environment variables
+2025-05-25 19:16:09 | DEBUG    | src.api.texau_client:__init__:31 - TexAU client initialized with complete authentication
+2025-05-25 19:16:09 | DEBUG    | src.api.linkedin_api:__init__:11 - LinkedIn API client initialized
+2025-05-25 19:16:09 | DEBUG    | __main__:__init__:19 - Initializing LinkedIn Extractor App
+2025-05-25 19:16:21 | INFO     | src.config:load_config:14 - Loading environment variables
+2025-05-25 19:16:21 | DEBUG    | src.api.texau_client:__init__:31 - TexAU client initialized with complete authentication
+2025-05-25 19:16:21 | DEBUG    | src.api.linkedin_api:__init__:11 - LinkedIn API client initialized
+2025-05-25 19:16:21 | DEBUG    | __main__:__init__:19 - Initializing LinkedIn Extractor App
+2025-05-25 19:16:56 | INFO     | src.config:load_config:14 - Loading environment variables
+2025-05-25 19:16:56 | DEBUG    | src.api.texau_client:__init__:31 - TexAU client initialized with complete authentication
+2025-05-25 19:16:56 | DEBUG    | src.api.linkedin_api:__init__:11 - LinkedIn API client initialized
+2025-05-25 19:16:56 | DEBUG    | __main__:__init__:19 - Initializing LinkedIn Extractor App
+2025-05-25 19:17:00 | INFO     | src.config:load_config:14 - Loading environment variables
+2025-05-25 19:17:00 | DEBUG    | src.api.texau_client:__init__:31 - TexAU client initialized with complete authentication
+2025-05-25 19:17:00 | DEBUG    | src.api.linkedin_api:__init__:11 - LinkedIn API client initialized
+2025-05-25 19:17:00 | DEBUG    | __main__:__init__:19 - Initializing LinkedIn Extractor App
+2025-05-25 19:17:00 | INFO     | src.config:load_config:14 - Loading environment variables
+2025-05-25 19:17:00 | DEBUG    | src.api.texau_client:__init__:31 - TexAU client initialized with complete authentication
+2025-05-25 19:17:00 | DEBUG    | src.api.linkedin_api:__init__:11 - LinkedIn API client initialized
+2025-05-25 19:17:00 | DEBUG    | __main__:__init__:19 - Initializing LinkedIn Extractor App
+2025-05-25 19:44:36 | INFO     | src.config:load_config:14 - Loading environment variables
+2025-05-25 19:44:36 | DEBUG    | src.api.texau_client:__init__:31 - TexAU client initialized with complete authentication
+2025-05-25 19:44:36 | DEBUG    | src.api.linkedin_api:__init__:11 - LinkedIn API client initialized
+2025-05-25 19:44:36 | DEBUG    | __main__:__init__:19 - Initializing LinkedIn Extractor App
+2025-05-25 19:44:40 | INFO     | src.config:load_config:14 - Loading environment variables
+2025-05-25 19:44:40 | DEBUG    | src.api.texau_client:__init__:31 - TexAU client initialized with complete authentication
+2025-05-25 19:44:40 | DEBUG    | src.api.linkedin_api:__init__:11 - LinkedIn API client initialized
+2025-05-25 19:44:40 | DEBUG    | __main__:__init__:19 - Initializing LinkedIn Extractor App
+2025-05-25 19:44:46 | INFO     | src.config:load_config:14 - Loading environment variables
+2025-05-25 19:44:46 | DEBUG    | src.api.texau_client:__init__:31 - TexAU client initialized with complete authentication
+2025-05-25 19:44:46 | DEBUG    | src.api.linkedin_api:__init__:11 - LinkedIn API client initialized
+2025-05-25 19:44:46 | DEBUG    | __main__:__init__:19 - Initializing LinkedIn Extractor App
+2025-05-25 19:44:49 | INFO     | src.config:load_config:14 - Loading environment variables
+2025-05-25 19:44:49 | DEBUG    | src.api.texau_client:__init__:31 - TexAU client initialized with complete authentication
+2025-05-25 19:44:49 | DEBUG    | src.api.linkedin_api:__init__:11 - LinkedIn API client initialized
+2025-05-25 19:44:49 | DEBUG    | __main__:__init__:19 - Initializing LinkedIn Extractor App
+2025-05-25 19:44:51 | INFO     | src.config:load_config:14 - Loading environment variables
+2025-05-25 19:44:51 | DEBUG    | src.api.texau_client:__init__:31 - TexAU client initialized with complete authentication
+2025-05-25 19:44:51 | DEBUG    | src.api.linkedin_api:__init__:11 - LinkedIn API client initialized
+2025-05-25 19:44:51 | DEBUG    | __main__:__init__:19 - Initializing LinkedIn Extractor App
+2025-05-25 20:21:48 | INFO     | src.config:load_config:14 - Loading environment variables
+2025-05-25 20:21:48 | DEBUG    | src.api.texau_client:__init__:31 - TexAU client initialized with complete authentication
+2025-05-25 20:21:48 | DEBUG    | src.api.linkedin_api:__init__:11 - LinkedIn API client initialized
+2025-05-25 20:21:48 | DEBUG    | __main__:__init__:19 - Initializing LinkedIn Extractor App
+2025-05-25 20:22:02 | INFO     | src.config:load_config:14 - Loading environment variables
+2025-05-25 20:22:02 | DEBUG    | src.api.texau_client:__init__:31 - TexAU client initialized with complete authentication
+2025-05-25 20:22:02 | DEBUG    | src.api.linkedin_api:__init__:11 - LinkedIn API client initialized
+2025-05-25 20:22:02 | DEBUG    | __main__:__init__:19 - Initializing LinkedIn Extractor App
+2025-05-25 20:22:15 | INFO     | src.config:load_config:14 - Loading environment variables
+2025-05-25 20:22:15 | DEBUG    | src.api.texau_client:__init__:31 - TexAU client initialized with complete authentication
+2025-05-25 20:22:15 | DEBUG    | src.api.linkedin_api:__init__:11 - LinkedIn API client initialized
+2025-05-25 20:22:15 | DEBUG    | __main__:__init__:19 - Initializing LinkedIn Extractor App
+2025-05-25 20:22:17 | INFO     | src.config:load_config:14 - Loading environment variables
+2025-05-25 20:22:17 | DEBUG    | src.api.texau_client:__init__:31 - TexAU client initialized with complete authentication
+2025-05-25 20:22:17 | DEBUG    | src.api.linkedin_api:__init__:11 - LinkedIn API client initialized
+2025-05-25 20:22:17 | DEBUG    | __main__:__init__:19 - Initializing LinkedIn Extractor App
+2025-05-25 20:22:17 | INFO     | src.config:load_config:14 - Loading environment variables
+2025-05-25 20:22:17 | DEBUG    | src.api.texau_client:__init__:31 - TexAU client initialized with complete authentication
+2025-05-25 20:22:17 | DEBUG    | src.api.linkedin_api:__init__:11 - LinkedIn API client initialized
+2025-05-25 20:22:17 | DEBUG    | __main__:__init__:19 - Initializing LinkedIn Extractor App
+2025-05-25 22:03:37 | INFO     | src.config:load_config:14 - Loading environment variables
+2025-05-25 22:03:37 | DEBUG    | src.api.texau_client:__init__:31 - TexAU client initialized with complete authentication
+2025-05-25 22:03:37 | DEBUG    | src.api.linkedin_api:__init__:11 - LinkedIn API client initialized
+2025-05-25 22:03:37 | DEBUG    | __main__:__init__:19 - Initializing LinkedIn Extractor App
+2025-05-25 22:07:03 | INFO     | src.config:load_config:14 - Loading environment variables
+2025-05-25 22:07:03 | DEBUG    | src.api.texau_client:__init__:31 - TexAU client initialized with complete authentication
+2025-05-25 22:07:03 | DEBUG    | src.api.linkedin_api:__init__:11 - LinkedIn API client initialized
+2025-05-25 22:07:03 | DEBUG    | __main__:__init__:19 - Initializing LinkedIn Extractor App
+2025-05-25 22:07:11 | INFO     | src.config:load_config:14 - Loading environment variables
+2025-05-25 22:07:11 | DEBUG    | src.api.texau_client:__init__:31 - TexAU client initialized with complete authentication
+2025-05-25 22:07:11 | DEBUG    | src.api.linkedin_api:__init__:11 - LinkedIn API client initialized
+2025-05-25 22:07:11 | DEBUG    | __main__:__init__:19 - Initializing LinkedIn Extractor App
+2025-05-25 22:07:17 | INFO     | src.config:load_config:14 - Loading environment variables
+2025-05-25 22:07:17 | DEBUG    | src.api.texau_client:__init__:31 - TexAU client initialized with complete authentication
+2025-05-25 22:07:17 | DEBUG    | src.api.linkedin_api:__init__:11 - LinkedIn API client initialized
+2025-05-25 22:07:17 | DEBUG    | __main__:__init__:19 - Initializing LinkedIn Extractor App
+2025-05-25 22:07:20 | INFO     | src.config:load_config:14 - Loading environment variables
+2025-05-25 22:07:20 | DEBUG    | src.api.texau_client:__init__:31 - TexAU client initialized with complete authentication
+2025-05-25 22:07:20 | DEBUG    | src.api.linkedin_api:__init__:11 - LinkedIn API client initialized
+2025-05-25 22:07:20 | DEBUG    | __main__:__init__:19 - Initializing LinkedIn Extractor App
+2025-05-25 22:07:21 | INFO     | src.config:load_config:14 - Loading environment variables
+2025-05-25 22:07:21 | DEBUG    | src.api.texau_client:__init__:31 - TexAU client initialized with complete authentication
+2025-05-25 22:07:21 | DEBUG    | src.api.linkedin_api:__init__:11 - LinkedIn API client initialized
+2025-05-25 22:07:21 | DEBUG    | __main__:__init__:19 - Initializing LinkedIn Extractor App
+2025-05-25 22:13:34 | INFO     | src.config:load_config:14 - Loading environment variables
+2025-05-25 22:13:34 | DEBUG    | src.api.texau_client:__init__:31 - TexAU client initialized with complete authentication
+2025-05-25 22:13:34 | DEBUG    | src.api.linkedin_api:__init__:11 - LinkedIn API client initialized
+2025-05-25 22:13:34 | DEBUG    | __main__:__init__:19 - Initializing LinkedIn Extractor App
+2025-05-25 22:13:55 | INFO     | src.config:load_config:14 - Loading environment variables
+2025-05-25 22:13:55 | DEBUG    | src.api.texau_client:__init__:31 - TexAU client initialized with complete authentication
+2025-05-25 22:13:55 | DEBUG    | src.api.linkedin_api:__init__:11 - LinkedIn API client initialized
+2025-05-25 22:13:55 | DEBUG    | __main__:__init__:19 - Initializing LinkedIn Extractor App
+2025-05-25 22:14:07 | INFO     | src.config:load_config:14 - Loading environment variables
+2025-05-25 22:14:07 | DEBUG    | src.api.texau_client:__init__:31 - TexAU client initialized with complete authentication
+2025-05-25 22:14:07 | DEBUG    | src.api.linkedin_api:__init__:11 - LinkedIn API client initialized
+2025-05-25 22:14:07 | DEBUG    | __main__:__init__:19 - Initializing LinkedIn Extractor App
+2025-05-25 22:14:12 | INFO     | src.config:load_config:14 - Loading environment variables
+2025-05-25 22:14:12 | DEBUG    | src.api.texau_client:__init__:31 - TexAU client initialized with complete authentication
+2025-05-25 22:14:12 | DEBUG    | src.api.linkedin_api:__init__:11 - LinkedIn API client initialized
+2025-05-25 22:14:12 | DEBUG    | __main__:__init__:19 - Initializing LinkedIn Extractor App
+2025-05-25 22:14:12 | INFO     | src.config:load_config:14 - Loading environment variables
+2025-05-25 22:14:12 | DEBUG    | src.api.texau_client:__init__:31 - TexAU client initialized with complete authentication
+2025-05-25 22:14:12 | DEBUG    | src.api.linkedin_api:__init__:11 - LinkedIn API client initialized
+2025-05-25 22:14:12 | DEBUG    | __main__:__init__:19 - Initializing LinkedIn Extractor App
+2025-05-25 22:14:16 | INFO     | src.config:load_config:14 - Loading environment variables
+2025-05-25 22:14:16 | DEBUG    | src.api.texau_client:__init__:31 - TexAU client initialized with complete authentication
+2025-05-25 22:14:16 | DEBUG    | src.api.linkedin_api:__init__:11 - LinkedIn API client initialized
+2025-05-25 22:14:16 | DEBUG    | __main__:__init__:19 - Initializing LinkedIn Extractor App
+2025-05-25 22:14:16 | INFO     | src.config:load_config:14 - Loading environment variables
+2025-05-25 22:14:16 | DEBUG    | src.api.texau_client:__init__:31 - TexAU client initialized with complete authentication
+2025-05-25 22:14:16 | DEBUG    | src.api.linkedin_api:__init__:11 - LinkedIn API client initialized
+2025-05-25 22:14:16 | DEBUG    | __main__:__init__:19 - Initializing LinkedIn Extractor App

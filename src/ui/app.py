@@ -1,5 +1,14 @@
-import time
+# Set page config first before any other Streamlit commands
 import streamlit as st
+st.set_page_config(
+    page_title="Allied LinkedIn Data Extractor",
+    page_icon="📊",
+    layout="wide",
+    initial_sidebar_state="expanded"
+)
+
+# Now import other modules
+import time
 import json
 import pandas as pd
 import io
@@ -7,6 +16,8 @@ import os
 from src.api.linkedin_api import LinkedInAPI
 from src.data.data_processor import DataProcessor
 from src.logger import app_logger
+# Import the persona_rag_generator module
+from src.ai.persona_rag_generator import persona_rag_generator_page, add_to_navigation
 
 class LinkedInExtractorApp:
     """Main Streamlit application class for LinkedIn Data Extractor"""
@@ -16,15 +27,9 @@ class LinkedInExtractorApp:
         self.linkedin_api = LinkedInAPI()
         self.data_processor = DataProcessor()
         app_logger.debug("Initializing LinkedIn Extractor App")
-        
     def setup_page(self):
-        """Set up the Streamlit page with title and custom styling"""
-        st.set_page_config(
-            page_title="Allied LinkedIn Data Extractor",
-            page_icon="📊",
-            layout="wide",
-            initial_sidebar_state="expanded"
-        )
+        """Set up the Streamlit page with custom styling"""
+        # Page config is already set at the top of the file
         st.markdown("""
         <style>
         body { background: #f4f8fb; }
@@ -52,6 +57,9 @@ class LinkedInExtractorApp:
     def display_navigation(self):
         """Display visually appealing sidebar navigation with styled buttons"""
         st.sidebar.markdown("<div class='sidebar-title'>Navigation</div>", unsafe_allow_html=True)
+        # Get additional pages from the Richard Comment Generator
+        additional_pages = add_to_navigation()
+        
         pages = [
             ("Keyword Search", "Search LinkedIn posts by keywords"),
             ("Post Extraction", "Extract data from a specific LinkedIn post"),
@@ -59,6 +67,10 @@ class LinkedInExtractorApp:
             ("Company Extraction", "Extract data from a LinkedIn company page"),
             ("Decision-Maker Pipeline", "End-to-end workflow: search, extract, merge, filter, export")
         ]
+        
+        # Add the Richard Comment Generator page
+        for page_name, page_func in additional_pages.items():
+            pages.append((page_name, "Generate LinkedIn comments in Richard's professional style"))
         selected_page = st.session_state.get("selected_page", pages[0][0])
         for page, tooltip in pages:
             btn = st.sidebar.button(
@@ -860,6 +872,10 @@ class LinkedInExtractorApp:
         """Run the Streamlit application"""
         self.setup_page()
         selected_page = self.display_navigation()
+        
+        # Get additional pages from the Richard Comment Generator
+        additional_pages = add_to_navigation()
+        
         if selected_page == "Keyword Search":
             self.keyword_search_page()
         elif selected_page == "Post Extraction":
@@ -870,6 +886,9 @@ class LinkedInExtractorApp:
             self.company_extraction_page()
         elif selected_page == "Decision-Maker Pipeline":
             self.decision_maker_pipeline_page()
+        elif selected_page in additional_pages:
+            # Run the corresponding page function
+            additional_pages[selected_page]()
 
 if __name__ == "__main__":
     app = LinkedInExtractorApp()

@@ -1,0 +1,8 @@
+[server]
+runOnSave = true
+# Reduce file watcher noise
+fileWatcherType = "poll"
+
+[global]
+# Disable telemetry
+disableWatchdogWarning = true
