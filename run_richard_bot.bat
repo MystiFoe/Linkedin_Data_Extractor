@@ -1,0 +1,3 @@
+@echo off
+echo Starting Richard's LinkedIn Comment Generator...
+streamlit run run_streamlit_app.py

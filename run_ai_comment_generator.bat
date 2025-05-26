@@ -1,0 +1,3 @@
+@echo off
+echo Starting AI LinkedIn Comment Generator...
+streamlit run ai_comment_app.py

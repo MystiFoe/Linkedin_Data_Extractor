@@ -7,6 +7,7 @@ import os
 from src.api.linkedin_api import LinkedInAPI
 from src.data.data_processor import DataProcessor
 from src.logger import app_logger
+from src.ui.linkedin_comment_page import linkedin_comment_page
 
 class LinkedInExtractorApp:
     """Main Streamlit application class for LinkedIn Data Extractor"""
@@ -57,7 +58,8 @@ class LinkedInExtractorApp:
             ("Post Extraction", "Extract data from a specific LinkedIn post"),
             ("Profile Extraction", "Extract data from a LinkedIn profile"),
             ("Company Extraction", "Extract data from a LinkedIn company page"),
-            ("Decision-Maker Pipeline", "End-to-end workflow: search, extract, merge, filter, export")
+            ("Decision-Maker Pipeline", "End-to-end workflow: search, extract, merge, filter, export"),
+            ("LinkedIn Comment Generator", "Generate comments for LinkedIn posts using AI")
         ]
         selected_page = st.session_state.get("selected_page", pages[0][0])
         for page, tooltip in pages:
@@ -870,6 +872,8 @@ class LinkedInExtractorApp:
             self.company_extraction_page()
         elif selected_page == "Decision-Maker Pipeline":
             self.decision_maker_pipeline_page()
+        elif selected_page == "LinkedIn Comment Generator":
+            linkedin_comment_page()
 
 if __name__ == "__main__":
     app = LinkedInExtractorApp()

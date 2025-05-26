@@ -1,0 +1,3 @@
+@echo off
+echo Starting Simple Richard's LinkedIn Comment Generator...
+streamlit run simple_richard_bot.py
