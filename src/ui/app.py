@@ -1,3 +1,10 @@
+import os
+os.environ["STREAMLIT_WATCHER_TYPE"] = "none"
+
+import sys
+import os
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '../..')))
+
 import time
 import streamlit as st
 import json
@@ -59,7 +66,8 @@ class LinkedInExtractorApp:
             ("Profile Extraction", "Extract data from a LinkedIn profile"),
             ("Company Extraction", "Extract data from a LinkedIn company page"),
             ("Decision-Maker Pipeline", "End-to-end workflow: search, extract, merge, filter, export"),
-            ("LinkedIn Comment Generator", "Generate comments for LinkedIn posts using AI")
+            ("LinkedIn Comment Generator", "Generate comments for LinkedIn posts using AI"),
+            ("AI Comment Generator (Blended)", "Generate unique, meaningful LinkedIn comments using the new persona-blended logic")
         ]
         selected_page = st.session_state.get("selected_page", pages[0][0])
         for page, tooltip in pages:
@@ -874,6 +882,9 @@ class LinkedInExtractorApp:
             self.decision_maker_pipeline_page()
         elif selected_page == "LinkedIn Comment Generator":
             linkedin_comment_page()
+        elif selected_page == "AI Comment Generator (Blended)":
+            from app import main as blended_comment_ui
+            blended_comment_ui()
 
 if __name__ == "__main__":
     app = LinkedInExtractorApp()
